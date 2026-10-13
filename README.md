@@ -1,5 +1,7 @@
 ## Hi, thanks for reading this... README.md for some reason. ##
 
+## WEB: https://conehazardaltguy.github.io/Akiong-Schizo-Slop-Generator/ ##
+
 
 ## What is this ##
 
