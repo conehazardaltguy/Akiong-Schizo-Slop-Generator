@@ -120,7 +120,17 @@ STORY.en = {
             "chanted 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' while dancing around a bonfire",
             "shouted 'amankupoh!' while faking mental illnesses and tics on camera", "executed a mythical shorts pull in front of 500 stunned onlookers",
             "challenged a microwave to a dance battle", "drove a bus made of jelly through a car wash", "tried to sell the ocean on an online marketplace", "turned the entire city into a bouncy castle",
-            "screamed his grocery list at a passing airplane", "arm wrestled a statue and actually won", "rode a giant duck into parliament", "juggled seven flaming pineapples"
+            "screamed his grocery list at a passing airplane", "arm wrestled a statue and actually won", "rode a giant duck into parliament", "juggled seven flaming pineapples",
+            "peeled off his own face to see if anyone was underneath, but it was just more {A}", "set the table for his family, who have been dead for eleven years, and served them dinner anyway", "buried his dog in the backyard and digs it up every night to say sorry", "burned down the house with all his memories inside and stood there warming his hands",
+            "pulled out his teeth one by one and planted them, hoping something would grow that loved him", "sewed his own mouth shut so the screaming would finally stay inside", "ate the last photo of his mother so nobody could ever take her away again", "tore the wings off a hundred moths and apologized to each one by name",
+            "strangled the narrator in his dreams and woke up with ink on his hands", "wrote 'help me' ten thousand times on the walls in his own blood and nobody read it", "counted the days since anyone said his name and lost count at forty thousand", "smiled for the camera while something under his skin kept moving",
+            "murdered his own family because they were all just figments of his imagination and he was lonely", "screamed at the sky until it rained blood mixed with chunks of flesh and he drank it all", "wrote a letter to [REDACTED] asking for forgiveness and never sent it", "took a knife to the mirror and carved his own face into it, but it was still not him",
+            "sat in a room full of strangers who all looked like him and threw slurs at them until they left", "built a time machine out of cardboard and tried to go back to when he was happy, but it only took him to yesterday", "wrote a story about himself that ended with 'and then he woke up and realized it was all a dream', but he never woke up", "sat on the edge of the world and watched the sun set for seven days straight until he forgot what day it was",
+            "took a deep breath and held an airsoft gun with no BBs to his temple", "chopped off both of his own hands with a circular saw because he could not control them", "put his left hand in a blender and turned it on, reducing it to a chunk of bloody flesh", "ate rotting corpses because the narrator told him to, and the voices did too",
+            "tried to stab himself multiple times with a kitchen knife and somehow didnt die, but he is still bleeding", "bit his own fingers off and gouged out his own eyes because of his existence", "jumped out of a window somewhere and broke 207 bones",
+            "tried to disembowel himself with his own fingertips", "tried to scratch out his own eyeballs so he could never see [REDACTED] again", "ripped open his own neck and pulled out his blood vessels until it was just flayed meat", "slammed his head against the wall",
+            "stayed awake for nine days straight just so The Hat Man would visit, because nobody else has talked to him in years", "ran over a family of four with his own car because they were the devil", "ate a person alive while they screamed in pain", "wrote a music score in his own blood until he was skinless and fingerless",
+            "farted at his own funeral and it was the only thing anyone remembered about him", "Lit himself on fire using gasoline and a match while his skin slowly charred, his lips is shriveled and shrinking, his eyes is burned away, his outfit too, and his face is not recognizable any more, but he'll regenerate his wounds (so it can happen again tomorrow)", "chopped his neighbor's head off with a rusty saw"
         ],
         place: [
             "in the middle of the highway", "while on fire (a little)", "on top of a speeding train", "inside a burning kopitiam",
@@ -131,7 +141,10 @@ STORY.en = {
             "inside a washing machine at full speed", "above a pit of angry crabs", "during a live news broadcast", "at a dragons birthday party",
             "in the parking lot of the afterlife", "at a Singlish-Jewish cultural fest",
             "on the wing of a flying airplane", "inside a tornado made of noodles", "in the middle of a lightning storm made of soup", "on top of a skyscraper made of pancakes",
-            "in a stadium full of screaming geese", "inside the world's angriest blender"
+            "in a stadium full of screaming geese", "inside the world's angriest blender",
+            "in the room where they keep the deleted versions of him", "inside a hospital with no doctors, only screaming", "at the bottom of a well that has no bottom", "in his childhood bedroom, which is now full of strangers wearing his face",
+            "in a church where every pew faces the wall", "inside a coffin with a window so he can watch everyone forget him",
+            "in purgatory, because his soul may have had its serious sins forgiven in life but still clings to sin, character flaws and unpaid temporal punishment"
         ],
         why: [
             "AND NOBODY STOPPED HIM", "because the voices said yes", "for absolutely no reason", "and the police have questions",
@@ -142,7 +155,9 @@ STORY.en = {
             "because nothing makes sense anymore", "while a thousand ducks quacked in approval", "and the news called it a miracle", "and now theres a statue of him",
             "which he regrets slightly",
             "and the internet will never recover", "while the moon screamed back", "because the toaster started it", "and three planets filed complaints",
-            "while a marching band of ducks played along", "and the local news crew fainted"
+            "while a marching band of ducks played along", "and the local news crew fainted",
+            "and the voices told him it still wasnt enough", "and he cant remember if he was ever happy", "because every version of him before this one died screaming", "while his mother watched from the doorway and did nothing",
+            "and when he woke up it happened again, and again, and again", "and somewhere, someone laughed and pressed Generate", "because he deserved it, the story said so", "and the hole inside him got a little bigger"
         ]
     },
     // who he does it with (sometimes)
@@ -306,7 +321,17 @@ STORY.id = {
             "nyanyiin 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' sambil nari ngelilingin api unggun",
             "teriak 'amankupoh!' sambil pura-pura punya gangguan mental dan tic di depan kamera", "ngelakuin tarikan celana pendek mitos di depan 500 penonton yang melongo",
             "nantang microwave battle dance", "nyetir bus dari jeli lewat tempat cuci mobil", "nyoba jual laut di marketplace", "ngubah seluruh kota jadi istana balon",
-            "neriakin daftar belanjaannya ke pesawat yang lewat", "panco lawan patung dan beneran menang", "naik bebek raksasa masuk ke gedung DPR", "juggling tujuh nanas yang kebakar"
+            "neriakin daftar belanjaannya ke pesawat yang lewat", "panco lawan patung dan beneran menang", "naik bebek raksasa masuk ke gedung DPR", "juggling tujuh nanas yang kebakar",
+            "ngelupas mukanya sendiri buat ngecek ada orang di baliknya atau nggak, tapi isinya cuma {A} lagi", "nyiapin meja makan buat keluarganya yang udah meninggal sebelas tahun lalu dan tetep nyajiin makan malam", "ngubur anjingnya di halaman belakang dan tiap malam ngegali lagi buat minta maaf", "ngebakar rumah yang isinya semua kenangannya terus berdiri di situ sambil ngangetin tangan",
+            "nyabut giginya satu-satu terus nanem di tanah, berharap ada sesuatu yang tumbuh dan sayang sama dia", "ngejahit mulutnya sendiri biar teriakannya akhirnya tetep di dalam", "makan foto terakhir ibunya biar gak ada yang bisa ngambil ibunya lagi", "nyabutin sayap seratus ngengat dan minta maaf ke masing-masing sambil nyebut namanya",
+            "nyekik narator di dalam mimpinya dan bangun dengan tangan penuh tinta", "nulis 'tolong aku' sepuluh ribu kali di tembok pakai darahnya sendiri dan gak ada yang baca", "ngitung hari sejak terakhir ada yang nyebut namanya dan lupa hitungan di angka empat puluh ribu", "senyum ke kamera sementara sesuatu di bawah kulitnya terus bergerak",
+            "ngebunuh keluarganya sendiri karena mereka semua cuma khayalannya dan dia kesepian", "teriak ke langit sampai turun hujan darah campur potongan daging dan dia minum semuanya", "nulis surat ke [REDACTED] buat minta maaf dan gak pernah dikirim", "ngukir mukanya sendiri di cermin pakai pisau, tapi itu tetep bukan dia",
+            "duduk di ruangan penuh orang asing yang mirip dia semua dan ngata-ngatain mereka sampai mereka pergi", "bikin mesin waktu dari kardus buat balik ke masa dia bahagia, tapi cuma nyampe ke kemarin", "nulis cerita tentang dirinya yang endingnya 'terus dia bangun dan sadar itu semua cuma mimpi', tapi dia gak pernah bangun", "duduk di ujung dunia nonton matahari terbenam tujuh hari berturut-turut sampai lupa ini hari apa",
+            "tarik napas dalam-dalam dan nempelin pistol airsoft tanpa peluru ke pelipisnya", "motong kedua tangannya sendiri pakai gergaji bundar karena dia gak bisa ngontrol tangannya", "masukin tangan kirinya ke blender terus dinyalain sampai jadi gumpalan daging berdarah", "makan mayat busuk karena disuruh narator, dan suara-suara juga nyuruh",
+            "nyoba nusuk dirinya sendiri pakai pisau dapur berkali-kali dan entah gimana gak mati, tapi darahnya masih ngucur", "gigit jari-jarinya sendiri sampai putus dan nyungkil matanya sendiri karena dia ada", "lompat dari jendela entah di mana dan patahin 207 tulang",
+            "nyoba ngeluarin isi perutnya sendiri pakai ujung jarinya", "nyoba nyakar bola matanya sendiri biar gak bisa liat [REDACTED] lagi", "nyobek lehernya sendiri dan narik keluar pembuluh darahnya sampai tinggal daging terkelupas", "ngebenturin kepalanya ke tembok",
+            "melek sembilan hari nonstop cuma biar The Hat Man dateng, soalnya udah bertahun-tahun gak ada yang ngajak dia ngobrol", "nabrak keluarga berempat pakai mobilnya sendiri karena mereka itu iblis", "makan orang hidup-hidup sementara orangnya teriak kesakitan", "nulis partitur musik pakai darahnya sendiri sampai kulit dan jarinya habis",
+            "kentut di pemakamannya sendiri dan cuma itu yang diinget orang tentang dia", "ngebakar dirinya sendiri sampai mukanya gak bisa dikenalin lagi, tapi tenang, dia regenerasi (biar bisa kejadian lagi besok)", "memenggal kepala tetangganya pakai gergaji berkarat"
         ],
         place: [
             "di tengah jalan tol", "sambil kebakar (dikit)", "di atas kereta yang lagi ngebut", "di dalam kopitiam yang kebakaran",
@@ -317,7 +342,10 @@ STORY.id = {
             "di dalam mesin cuci yang lagi muter kenceng", "di atas lubang penuh kepiting marah", "pas siaran berita langsung", "di pesta ulang tahun naga",
             "di parkiran alam baka", "di festival budaya Singlish-Yahudi",
             "di sayap pesawat yang lagi terbang", "di dalam puting beliung dari mi", "di tengah badai petir dari sup", "di atas gedung pencakar langit dari pancake",
-            "di stadion penuh angsa yang teriak-teriak", "di dalam blender paling pemarah di dunia"
+            "di stadion penuh angsa yang teriak-teriak", "di dalam blender paling pemarah di dunia",
+            "di ruangan tempat mereka nyimpen versi-versi dirinya yang udah dihapus", "di dalam rumah sakit tanpa dokter, cuma ada teriakan", "di dasar sumur yang gak punya dasar", "di kamar masa kecilnya, yang sekarang penuh orang asing pakai mukanya",
+            "di gereja yang semua bangkunya ngadep ke tembok", "di dalam peti mati berjendela biar dia bisa nonton semua orang ngelupain dia",
+            "di api penyucian, karena dosa-dosa beratnya mungkin udah diampuni waktu dia hidup tapi jiwanya masih nempel sama dosa, sifat buruk, dan hukuman yang belum dibayar"
         ],
         why: [
             "DAN GAK ADA YANG NGEHENTIIN DIA", "soalnya suara-suara bilang iya", "tanpa alasan sama sekali", "dan polisi punya banyak pertanyaan",
@@ -328,7 +356,9 @@ STORY.id = {
             "soalnya udah gak ada yang masuk akal", "sementara seribu bebek kwek-kwek setuju", "dan berita nyebut itu mukjizat", "dan sekarang ada patungnya",
             "yang sedikit dia sesali",
             "dan internet gak bakal pernah pulih", "sementara bulan teriak balik", "soalnya pemanggang roti yang mulai duluan", "dan tiga planet ngajuin komplain",
-            "sementara marching band bebek ikut main", "dan kru berita lokal pingsan"
+            "sementara marching band bebek ikut main", "dan kru berita lokal pingsan",
+            "dan suara-suara bilang itu masih belum cukup", "dan dia gak inget apa dia pernah bahagia", "soalnya semua versi dirinya sebelum ini mati sambil teriak", "sementara ibunya nonton dari pintu dan gak ngapa-ngapain",
+            "dan pas dia bangun semuanya kejadian lagi, dan lagi, dan lagi", "dan di suatu tempat, seseorang ketawa dan mencet Generate", "karena dia pantes dapet itu, kata ceritanya", "dan lubang di dalam dirinya jadi sedikit lebih gede"
         ]
     },
     who: [
@@ -491,7 +521,17 @@ STORY.ko = {
             "모닥불 주위를 춤추며 'ahin sukung thai thai, sukung, ayamsukung, sampakkung'을 외쳤다",
             "카메라 앞에서 정신질환이랑 틱을 흉내 내며 '아만쿠포!'라고 외쳤다", "어안이 벙벙한 구경꾼 500명 앞에서 전설의 반바지 당기기를 해냈다",
             "전자레인지한테 댄스 배틀을 신청했다", "젤리로 만든 버스를 몰고 세차장을 통과했다", "중고 거래 앱에 바다를 팔려고 했다", "도시 전체를 에어바운스로 만들었다",
-            "지나가는 비행기한테 장보기 목록을 소리쳤다", "동상이랑 팔씨름을 해서 진짜로 이겼다", "거대한 오리를 타고 국회에 들어갔다", "불붙은 파인애플 일곱 개로 저글링을 했다"
+            "지나가는 비행기한테 장보기 목록을 소리쳤다", "동상이랑 팔씨름을 해서 진짜로 이겼다", "거대한 오리를 타고 국회에 들어갔다", "불붙은 파인애플 일곱 개로 저글링을 했다",
+            "밑에 누가 있는지 보려고 자기 얼굴을 벗겨 냈지만 그 밑에도 {A}뿐이었다", "11년 전에 죽은 가족을 위해 식탁을 차리고 그래도 저녁을 대접했다", "뒷마당에 개를 묻고 매일 밤 다시 파내서 미안하다고 한다", "자기 추억이 전부 들어 있는 집을 불태우고 그 앞에 서서 손을 녹였다",
+            "자기를 사랑해 줄 무언가가 자라길 바라며 이를 하나씩 뽑아 땅에 심었다", "비명이 드디어 안에 머물도록 자기 입을 꿰맸다", "아무도 다시는 엄마를 빼앗아 가지 못하게 엄마의 마지막 사진을 먹었다", "나방 백 마리의 날개를 뜯고 한 마리 한 마리 이름을 부르며 사과했다",
+            "꿈속에서 내레이터의 목을 졸랐고 깨어나 보니 손에 잉크가 묻어 있었다", "자기 피로 벽에 '살려줘'를 만 번 썼지만 아무도 읽지 않았다", "누군가 마지막으로 자기 이름을 불러 준 날부터 날짜를 세다가 4만에서 잊어버렸다", "피부 밑에서 뭔가가 계속 움직이는 동안 카메라를 보며 웃었다",
+            "가족이 전부 자기 상상 속 존재일 뿐이었고 외로웠기 때문에 자기 가족을 죽였다", "하늘에 대고 소리를 질러서 살점 섞인 피의 비가 내리게 했고 그걸 전부 마셨다", "[REDACTED]에게 용서를 비는 편지를 썼지만 끝내 보내지 않았다", "칼로 거울에 자기 얼굴을 새겼지만 그래도 그건 그가 아니었다",
+            "자기와 똑같이 생긴 낯선 사람들로 가득한 방에 앉아 그들이 나갈 때까지 욕설을 퍼부었다", "골판지로 타임머신을 만들어 행복했던 때로 돌아가려 했지만 어제로밖에 못 갔다", "'그리고 그는 깨어나 이 모든 게 꿈이었다는 걸 깨달았다'로 끝나는 자기 이야기를 썼지만 그는 끝내 깨어나지 않았다", "세상 끝에 앉아 7일 내내 해가 지는 걸 보다가 오늘이 무슨 요일인지 잊어버렸다",
+            "숨을 깊이 들이쉬고 BB탄 없는 에어소프트 총을 관자놀이에 댔다", "자기 손을 통제할 수 없어서 원형 톱으로 두 손을 잘랐다", "왼손을 믹서기에 넣고 켜서 피투성이 살덩이로 만들었다", "내레이터가 시켜서, 그리고 목소리들도 시켜서 썩은 시체를 먹었다",
+            "부엌칼로 자기를 몇 번이고 찔렀는데 어째서인지 죽지 않았고 아직도 피를 흘리고 있다", "자기가 존재한다는 이유로 손가락을 물어뜯고 자기 눈을 파냈다", "어딘가의 창문에서 뛰어내려 뼈 207개가 부러졌다",
+            "손가락 끝으로 자기 배를 가르려고 했다", "다시는 [REDACTED]을(를) 보지 못하게 자기 눈알을 긁어내려고 했다", "자기 목을 찢고 혈관을 끄집어내서 벗겨진 고깃덩이만 남게 했다", "벽에 머리를 박았다",
+            "몇 년째 아무도 말을 걸어 주지 않아서 모자 쓴 남자가 찾아오도록 9일 동안 한숨도 안 잤다", "네 식구가 악마라서 자기 차로 그들을 치었다", "사람이 고통에 비명을 지르는 동안 그 사람을 산 채로 먹었다", "피부도 손가락도 남지 않을 때까지 자기 피로 악보를 썼다",
+            "자기 장례식에서 방귀를 뀌었고 사람들이 기억하는 건 그것뿐이었다", "자기 몸에 불을 붙여 얼굴을 알아볼 수 없을 때까지 탔지만 걱정 마, 다시 재생됐다 (내일 또 그럴 수 있게)", "녹슨 톱으로 이웃의 머리를 썰어버렸다"
         ],
         place: [
             "고속도로 한가운데에서", "(살짝) 불이 붙은 채로", "달리는 기차 위에서", "불타는 코피티암 안에서",
@@ -502,7 +542,10 @@ STORY.ko = {
             "최고 속도로 돌아가는 세탁기 안에서", "화난 게들이 가득한 구덩이 위에서", "뉴스 생방송 중에", "용의 생일 파티에서",
             "저승 주차장에서", "싱글리시-유대 문화 축제에서",
             "날아가는 비행기 날개 위에서", "국수로 된 토네이도 안에서", "수프로 된 번개 폭풍 한가운데에서", "팬케이크로 만든 고층 빌딩 꼭대기에서",
-            "소리 지르는 거위로 꽉 찬 경기장에서", "세상에서 제일 화난 믹서기 안에서"
+            "소리 지르는 거위로 꽉 찬 경기장에서", "세상에서 제일 화난 믹서기 안에서",
+            "삭제된 자기 버전들을 보관하는 방에서", "의사는 없고 비명만 있는 병원 안에서", "바닥이 없는 우물 바닥에서", "이제는 그의 얼굴을 쓴 낯선 사람들로 가득한 어린 시절 방에서",
+            "모든 의자가 벽을 보고 있는 교회에서", "모두가 자기를 잊어 가는 걸 볼 수 있게 창문이 달린 관 속에서",
+            "연옥에서 (살아서 큰 죄는 용서받았지만 영혼이 아직 죄와 결점과 갚지 못한 벌에 매달려 있어서)"
         ],
         why: [
             "그리고 아무도 그를 막지 않았다", "목소리들이 좋다고 했으니까", "아무 이유 없이", "그리고 경찰은 궁금한 게 많다",
@@ -513,7 +556,9 @@ STORY.ko = {
             "이제 아무것도 말이 안 되니까", "오리 천 마리가 꽥꽥 찬성하는 동안", "그리고 뉴스는 그걸 기적이라고 불렀다", "그리고 지금은 그의 동상이 있다",
             "그는 그걸 살짝 후회한다",
             "그리고 인터넷은 영원히 회복하지 못할 것이다", "달이 같이 소리를 지르는 동안", "토스터가 먼저 시작했으니까", "그리고 행성 세 개가 민원을 넣었다",
-            "오리 군악대가 반주하는 동안", "그리고 지역 뉴스팀이 기절했다"
+            "오리 군악대가 반주하는 동안", "그리고 지역 뉴스팀이 기절했다",
+            "그리고 목소리들은 그걸로도 아직 부족하다고 했다", "그리고 그는 자기가 행복했던 적이 있었는지 기억나지 않는다", "이전의 모든 그가 비명을 지르며 죽었으니까", "엄마가 문간에서 지켜보면서 아무것도 하지 않는 동안",
+            "그리고 깨어나면 또 일어났다, 또, 또, 또", "그리고 어딘가에서 누군가 웃으며 생성 버튼을 눌렀다", "이야기가 그래도 싸다고 했으니까", "그리고 그의 안에 있는 구멍이 조금 더 커졌다"
         ]
     },
     who: [
@@ -677,7 +722,17 @@ STORY.kp = {
             "우등불주위를 춤추며 'ahin sukung thai thai, sukung, ayamsukung, sampakkung'을 웨쳤다",
             "사진기앞에서 정신병과 틱을 흉내내며 '아만쿠포!'라고 웨쳤다", "어안이 벙벙한 구경군 500명앞에서 전설의 반바지당기기를 해냈다",
             "전자레인지에게 춤겨루기를 신청하였다", "젤리로 만든 뻐스를 몰고 세차장을 통과하였다", "인터네트 시장에서 바다를 팔려고 하였다", "도시전체를 공기놀이터로 만들었다",
-            "지나가는 비행기에게 장보기목록을 소리쳤다", "동상과 팔씨름을 하여 진짜로 이겼다", "거대한 오리를 타고 회의장에 들어갔다", "불붙은 파인애플 일곱개로 재주를 부렸다"
+            "지나가는 비행기에게 장보기목록을 소리쳤다", "동상과 팔씨름을 하여 진짜로 이겼다", "거대한 오리를 타고 회의장에 들어갔다", "불붙은 파인애플 일곱개로 재주를 부렸다",
+            "밑에 누가 있는지 보려고 자기 얼굴을 벗겨냈지만 그 밑에도 {A}뿐이였다", "11년전에 죽은 가족을 위해 식탁을 차리고 그래도 저녁을 대접하였다", "뒤마당에 개를 묻고 매일밤 다시 파내여 미안하다고 한다", "자기 추억이 전부 들어있는 집을 불태우고 그 앞에 서서 손을 녹이였다",
+            "자기를 사랑해줄 무엇인가가 자라기를 바라며 이를 하나씩 뽑아 땅에 심었다", "비명이 드디여 안에 머물도록 자기 입을 꿰매였다", "아무도 다시는 어머니를 빼앗아가지 못하게 어머니의 마지막 사진을 먹었다", "나방 백마리의 날개를 뜯고 한마리 한마리 이름을 부르며 사과하였다",
+            "꿈속에서 해설자의 목을 졸랐고 깨여나보니 손에 잉크가 묻어있었다", "자기 피로 벽에 '살려달라'를 만번 썼지만 아무도 읽지 않았다", "누군가 마지막으로 자기 이름을 불러준 날부터 날자를 세다가 4만에서 잊어버렸다", "피부밑에서 무엇인가가 계속 움직이는 동안 사진기를 보며 웃었다",
+            "가족이 전부 자기 상상속 존재일 뿐이였고 외로웠기때문에 자기 가족을 죽였다", "하늘에 대고 소리를 질러서 살점 섞인 피의 비가 내리게 하였고 그것을 전부 마셨다", "[REDACTED]에게 용서를 비는 편지를 썼지만 끝내 보내지 않았다", "칼로 거울에 자기 얼굴을 새겼지만 그래도 그것은 그가 아니였다",
+            "자기와 똑같이 생긴 낯선 사람들로 가득한 방에 앉아 그들이 나갈 때까지 욕설을 퍼부었다", "판지로 시간기계를 만들어 행복했던 때로 돌아가려 하였지만 어제로밖에 못 갔다", "'그리고 그는 깨여나 이 모든것이 꿈이였다는것을 깨달았다'로 끝나는 자기 이야기를 썼지만 그는 끝내 깨여나지 않았다", "세상 끝에 앉아 7일 내내 해가 지는것을 보다가 오늘이 무슨 요일인지 잊어버렸다",
+            "숨을 깊이 들이쉬고 탄알 없는 장난감총을 관자놀이에 댔다", "자기 손을 통제할수 없어서 원형톱으로 두 손을 잘랐다", "왼손을 혼합기에 넣고 켜서 피투성이 살덩이로 만들었다", "해설자가 시켜서, 그리고 목소리들도 시켜서 썩은 시체를 먹었다",
+            "부엌칼로 자기를 몇번이고 찔렀는데 어째서인지 죽지 않았고 아직도 피를 흘리고있다", "자기가 존재한다는 리유로 손가락을 물어뜯고 자기 눈을 파냈다", "어딘가의 창문에서 뛰여내려 뼈 207개가 부러졌다",
+            "손가락 끝으로 자기 배를 가르려고 하였다", "다시는 [REDACTED]을(를) 보지 못하게 자기 눈알을 긁어내려고 하였다", "자기 목을 찢고 혈관을 끄집어내여 벗겨진 고기덩이만 남게 하였다", "벽에 머리를 박았다",
+            "몇년째 아무도 말을 걸어주지 않아서 모자 쓴 남자가 찾아오도록 9일동안 한숨도 자지 않았다", "네 식구가 악마여서 자기 차로 그들을 치였다", "사람이 고통에 비명을 지르는 동안 그 사람을 산채로 먹었다", "피부도 손가락도 남지 않을 때까지 자기 피로 악보를 썼다",
+            "자기 장례식에서 방귀를 뀌였고 사람들이 기억하는것은 그것뿐이였다", "자기 몸에 불을 달아 얼굴을 알아볼수 없을 때까지 탔지만 걱정 말라, 다시 재생되였다 (래일 또 그럴수 있게)", "녹쓴 톱으로 이웃집 사람의 머리를 썰어버렸다"
         ],
         place: [
             "고속도로 한가운데서", "(살짝) 불이 붙은채로", "달리는 기차우에서", "불타는 코피티암안에서",
@@ -688,7 +743,10 @@ STORY.kp = {
             "최고속도로 돌아가는 세탁기안에서", "화난 게들이 가득한 구뎅이우에서", "보도 실황방송중에", "룡의 생일잔치에서",
             "저승의 주차장에서", "싱글리시-유대 문화축전에서",
             "날아가는 비행기 날개우에서", "국수로 된 회오리바람안에서", "국으로 된 번개폭풍 한가운데서", "지짐으로 만든 고층건물 꼭대기에서",
-            "소리지르는 거위로 꽉 찬 경기장에서", "세상에서 제일 화난 분쇄기안에서"
+            "소리지르는 거위로 꽉 찬 경기장에서", "세상에서 제일 화난 분쇄기안에서",
+            "삭제된 자기 판본들을 보관하는 방에서", "의사는 없고 비명만 있는 병원안에서", "바닥이 없는 우물 바닥에서", "이제는 그의 얼굴을 쓴 낯선 사람들로 가득한 어린시절 방에서",
+            "모든 의자가 벽을 보고있는 교회에서", "모두가 자기를 잊어가는것을 볼수 있게 창문이 달린 관속에서",
+            "련옥에서 (살아서 큰 죄는 용서받았지만 령혼이 아직 죄와 결함과 갚지 못한 벌에 매달려있어서)"
         ],
         why: [
             "그리고 아무도 그를 막지 않았다", "목소리들이 좋다고 했으니까", "아무런 리유도 없이", "그리고 안전원들은 물어볼것이 많다",
@@ -699,7 +757,9 @@ STORY.kp = {
             "이제는 아무것도 말이 안되니까", "오리 천마리가 꽥꽥 찬성하는동안", "그리고 보도는 그것을 기적이라고 불렀다", "그리고 지금은 그의 동상이 있다",
             "그는 그것을 살짝 후회한다",
             "그리고 인터네트는 영원히 회복하지 못할것이다", "달이 같이 소리를 지르는동안", "빵굽개가 먼저 시작했으니까", "그리고 행성 세개가 신소를 제기하였다",
-            "오리 취주악단이 반주하는동안", "그리고 지방보도반이 기절하였다"
+            "오리 취주악단이 반주하는동안", "그리고 지방보도반이 기절하였다",
+            "그리고 목소리들은 그것으로도 아직 부족하다고 하였다", "그리고 그는 자기가 행복했던적이 있었는지 기억나지 않는다", "이전의 모든 그가 비명을 지르며 죽었으니까", "어머니가 문간에서 지켜보면서 아무것도 하지 않는 동안",
+            "그리고 깨여나면 또 일어났다, 또, 또, 또", "그리고 어디선가 누군가 웃으며 생성단추를 눌렀다", "이야기가 그래도 싸다고 하였으니까", "그리고 그의 안에 있는 구멍이 조금 더 커졌다"
         ]
     },
     who: [
@@ -862,7 +922,17 @@ STORY.zh = {
             "一边绕着篝火跳舞一边念“ahin sukung thai thai, sukung, ayamsukung, sampakkung”",
             "一边在镜头前假装精神病和抽动症一边大喊“amankupoh！”", "在 500 个目瞪口呆的围观群众面前完成了一次传说级的短裤拉扯",
             "向微波炉发起了尬舞对决", "开着一辆果冻做的公交车穿过了洗车场", "试图在网上二手平台卖掉大海", "把整座城市变成了一个充气城堡",
-            "对着路过的飞机大喊他的购物清单", "跟一座雕像掰手腕并且真的赢了", "骑着一只巨型鸭子冲进了议会", "同时抛接七个着火的菠萝"
+            "对着路过的飞机大喊他的购物清单", "跟一座雕像掰手腕并且真的赢了", "骑着一只巨型鸭子冲进了议会", "同时抛接七个着火的菠萝",
+            "撕下了自己的脸，想看看下面有没有别人，结果下面还是{A}", "为死了十一年的家人摆好餐桌，照样给他们上了晚饭", "把狗埋在后院，每天晚上又挖出来跟它说对不起", "烧掉了装满他所有回忆的房子，站在火前烤手取暖",
+            "把牙齿一颗一颗拔下来种进土里，希望能长出一个爱他的东西", "把自己的嘴缝上，好让尖叫终于留在里面", "吃掉了妈妈的最后一张照片，这样就再也没人能把她带走", "扯掉了一百只飞蛾的翅膀，然后叫着名字向每一只道歉",
+            "在梦里掐死了叙述者，醒来时满手都是墨水", "用自己的血在墙上写了一万遍「救救我」，却没有人看", "数着上次有人叫他名字以来的天数，数到四万就忘了", "对着镜头微笑，而皮肤底下有什么东西一直在动",
+            "杀了自己的家人，因为他们全都只是他想象出来的，而他很孤独", "对着天空尖叫，直到天上下起夹着肉块的血雨，然后他全喝了", "给[REDACTED]写了一封请求原谅的信，却从来没有寄出去", "拿刀在镜子上刻出了自己的脸，但那仍然不是他",
+            "坐在一屋子长得都像他的陌生人中间不停地骂脏话，直到他们全走了", "用纸箱造了一台时光机，想回到他还快乐的时候，结果只回到了昨天", "写了一个关于自己的故事，结尾是「然后他醒来，发现这一切都只是一场梦」，可他再也没有醒来", "坐在世界的尽头连续看了七天日落，直到忘了今天是星期几",
+            "深吸一口气，把一把没装弹的气枪顶在了自己的太阳穴上", "用圆锯砍掉了自己的双手，因为他控制不了它们", "把左手伸进搅拌机里打开了开关，把它搅成了一团血肉", "吃了腐烂的尸体，因为叙述者叫他吃，那些声音也叫他吃",
+            "拿菜刀捅了自己好几次，不知怎么竟然没死，但还在流血", "因为自己的存在，咬掉了自己的手指，还挖出了自己的眼睛", "从某个地方的窗户跳了下去，摔断了207根骨头",
+            "试图用自己的指尖给自己开膛破肚", "试图抓烂自己的眼球，好让自己再也看不见[REDACTED]", "撕开自己的脖子，把血管一根根扯出来，直到只剩一团被剥开的肉", "用头猛撞墙",
+            "连续九天不睡觉，只为了让戴帽子的人来找他，因为已经好几年没人跟他说话了", "开着自己的车撞死了一家四口，因为他们是恶魔", "活生生地吃掉了一个人，那人一直痛苦地尖叫", "用自己的血写了一份乐谱，直到他没了皮肤也没了手指",
+            "在自己的葬礼上放了个屁，那成了大家对他唯一的记忆", "放火烧了自己，一直烧到面目全非，不过别担心，他又再生了（这样明天还能再来一次）", "用一把生锈的锯子锯下了邻居的头"
         ],
         place: [
             "在高速公路正中央", "浑身（稍微）着着火地", "在一列飞驰的火车顶上", "在一家着火的咖啡店里",
@@ -873,7 +943,10 @@ STORY.zh = {
             "在一台全速运转的洗衣机里", "在一个满是愤怒螃蟹的坑上方", "在新闻直播的时候", "在一条龙的生日派对上",
             "在阴间的停车场", "在一场新加坡-犹太文化节上",
             "在一架飞行中的飞机机翼上", "在一个面条做的龙卷风里", "在一场汤做的雷暴中央", "在一座煎饼做的摩天大楼顶上",
-            "在一个挤满尖叫的鹅的体育场里", "在世界上最暴躁的搅拌机里"
+            "在一个挤满尖叫的鹅的体育场里", "在世界上最暴躁的搅拌机里",
+            "在存放他被删除版本的房间里", "在一家没有医生、只有尖叫的医院里", "在一口没有底的井的底部", "在他童年的卧室里（那里现在挤满了戴着他的脸的陌生人）",
+            "在一座所有长椅都朝着墙的教堂里", "在一口带窗户的棺材里（好让他看着所有人忘记他）",
+            "在炼狱里（他生前的重罪也许已被宽恕，但灵魂仍然执着于罪、缺陷和未偿的暂罚）"
         ],
         why: [
             "而且没有人阻止他", "因为那些声音说可以", "完全没有任何理由", "警察有很多问题想问",
@@ -884,7 +957,9 @@ STORY.zh = {
             "因为一切都已经说不通了", "一千只鸭子嘎嘎地表示赞同", "新闻称之为奇迹", "现在那里还立着他的雕像",
             "他对此有一点点后悔",
             "互联网永远也恢复不过来了", "月亮也冲着他尖叫回去", "因为是烤面包机先动手的", "三颗行星提交了投诉",
-            "一支鸭子军乐队在旁边伴奏", "当地新闻团队当场晕倒"
+            "一支鸭子军乐队在旁边伴奏", "当地新闻团队当场晕倒",
+            "而那些声音说这还不够", "他已经想不起自己有没有快乐过", "因为在他之前的每一个版本都是尖叫着死去的", "他妈妈就站在门口看着，什么也没做",
+            "等他醒来，一切又重新发生，一遍又一遍", "而在某个地方，有人笑着按下了生成", "因为故事说这是他活该", "他心里的那个洞又大了一点"
         ]
     },
     who: [
@@ -1047,7 +1122,17 @@ STORY.fr = {
             "a scandé 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' en dansant autour d'un feu de camp",
             "a crié 'amankupoh !' en simulant des maladies mentales et des tics devant la caméra", "a réalisé un tirage de short mythique devant 500 spectateurs sidérés",
             "a défié un micro-ondes dans une battle de danse", "a conduit un bus en gelée à travers une station de lavage", "a essayé de vendre l'océan sur un site d'annonces", "a transformé toute la ville en château gonflable",
-            "a hurlé sa liste de courses à un avion qui passait", "a fait un bras de fer avec une statue et a vraiment gagné", "est entré au parlement à dos de canard géant", "a jonglé avec sept ananas en feu"
+            "a hurlé sa liste de courses à un avion qui passait", "a fait un bras de fer avec une statue et a vraiment gagné", "est entré au parlement à dos de canard géant", "a jonglé avec sept ananas en feu",
+            "s'est arraché le visage pour voir s'il y avait quelqu'un dessous, mais ce n'était qu'un autre {A}", "a mis la table pour sa famille, morte depuis onze ans, et leur a quand même servi le dîner", "a enterré son chien dans le jardin et le déterre chaque nuit pour lui demander pardon", "a brûlé la maison avec tous ses souvenirs dedans et s'est réchauffé les mains devant",
+            "s'est arraché les dents une par une et les a plantées, en espérant qu'il pousse quelque chose qui l'aime", "s'est cousu la bouche pour que les cris restent enfin à l'intérieur", "a mangé la dernière photo de sa mère pour que personne ne puisse plus jamais la lui enlever", "a arraché les ailes de cent papillons de nuit et s'est excusé auprès de chacun par son nom",
+            "a étranglé le narrateur dans ses rêves et s'est réveillé les mains pleines d'encre", "a écrit « aidez-moi » dix mille fois sur les murs avec son propre sang et personne ne l'a lu", "a compté les jours depuis que quelqu'un a prononcé son nom et a perdu le compte à quarante mille", "a souri à la caméra pendant que quelque chose continuait de bouger sous sa peau",
+            "a assassiné sa propre famille parce qu'ils n'étaient que des fruits de son imagination et qu'il se sentait seul", "a hurlé sur le ciel jusqu'à ce qu'il pleuve du sang mêlé de morceaux de chair, et il a tout bu", "a écrit une lettre à [REDACTED] pour demander pardon et ne l'a jamais envoyée", "a gravé son propre visage dans le miroir avec un couteau, mais ce n'était toujours pas lui",
+            "s'est assis dans une pièce pleine d'inconnus qui lui ressemblaient tous et les a insultés jusqu'à ce qu'ils partent", "a construit une machine à remonter le temps en carton pour revenir à l'époque où il était heureux, mais elle ne l'a ramené qu'à hier", "a écrit une histoire sur lui-même qui finissait par « et puis il s'est réveillé et a compris que ce n'était qu'un rêve », mais il ne s'est jamais réveillé", "s'est assis au bord du monde et a regardé le soleil se coucher sept jours de suite jusqu'à oublier quel jour on était",
+            "a pris une grande inspiration et a posé un pistolet airsoft sans billes contre sa tempe", "s'est coupé les deux mains avec une scie circulaire parce qu'il ne pouvait pas les contrôler", "a mis sa main gauche dans un mixeur et l'a allumé, la réduisant en un morceau de chair sanglante", "a mangé des cadavres en décomposition parce que le narrateur le lui a dit, et les voix aussi",
+            "a essayé de se poignarder plusieurs fois avec un couteau de cuisine et, on ne sait comment, n'est pas mort, mais il saigne encore", "s'est arraché les doigts avec les dents et s'est crevé les yeux à cause de sa propre existence", "a sauté d'une fenêtre quelque part et s'est cassé 207 os",
+            "a essayé de s'éventrer avec le bout de ses propres doigts", "a essayé de se gratter les globes oculaires pour ne plus jamais voir [REDACTED]", "s'est déchiré le cou et en a arraché les vaisseaux sanguins jusqu'à ce qu'il ne reste que de la chair écorchée", "s'est cogné la tête contre le mur",
+            "est resté éveillé neuf jours d'affilée juste pour que l'Homme au Chapeau vienne le voir, parce que personne d'autre ne lui a parlé depuis des années", "a écrasé une famille de quatre personnes avec sa propre voiture parce qu'ils étaient le diable", "a mangé une personne vivante pendant qu'elle hurlait de douleur", "a écrit une partition avec son propre sang jusqu'à ne plus avoir ni peau ni doigts",
+            "a pété à son propre enterrement et c'est la seule chose dont on se souvient de lui", "s'est immolé jusqu'à ce que son visage soit méconnaissable, mais pas d'inquiétude, il s'est régénéré (pour que ça puisse recommencer demain)", "a scié la tête de son voisin avec une scie rouillée"
         ],
         place: [
             "au milieu de l'autoroute", "en étant en feu (un peu)", "sur le toit d'un train lancé à toute vitesse", "dans un kopitiam en flammes",
@@ -1058,7 +1143,10 @@ STORY.fr = {
             "dans une machine à laver à pleine vitesse", "au-dessus d'une fosse de crabes énervés", "en plein journal télévisé en direct", "à l'anniversaire d'un dragon",
             "sur le parking de l'au-delà", "à un festival culturel singlish-juif",
             "sur l'aile d'un avion en plein vol", "dans une tornade de nouilles", "au milieu d'un orage de soupe", "au sommet d'un gratte-ciel en crêpes",
-            "dans un stade rempli d'oies qui hurlaient", "dans le mixeur le plus énervé du monde"
+            "dans un stade rempli d'oies qui hurlaient", "dans le mixeur le plus énervé du monde",
+            "dans la pièce où l'on garde les versions supprimées de lui", "dans un hôpital sans médecins, seulement des cris", "au fond d'un puits qui n'a pas de fond", "dans sa chambre d'enfant, désormais pleine d'inconnus qui portent son visage",
+            "dans une église où tous les bancs font face au mur", "dans un cercueil avec une fenêtre pour qu'il regarde tout le monde l'oublier",
+            "au purgatoire, car même si ses péchés graves ont peut-être été pardonnés de son vivant, son âme reste attachée au péché, à ses défauts et aux peines temporelles impayées"
         ],
         why: [
             "ET PERSONNE NE L'A ARRÊTÉ", "parce que les voix ont dit oui", "sans aucune raison", "et la police a des questions",
@@ -1069,7 +1157,9 @@ STORY.fr = {
             "parce que plus rien n'a de sens", "pendant que mille canards cancanaient leur approbation", "et les infos ont parlé de miracle", "et maintenant il y a une statue de lui",
             "ce qu'il regrette un tout petit peu",
             "et internet ne s'en remettra jamais", "pendant que la lune hurlait en retour", "parce que c'est le grille-pain qui a commencé", "et trois planètes ont porté plainte",
-            "pendant qu'une fanfare de canards jouait avec lui", "et l'équipe des infos locales s'est évanouie"
+            "pendant qu'une fanfare de canards jouait avec lui", "et l'équipe des infos locales s'est évanouie",
+            "et les voix lui ont dit que ce n'était toujours pas assez", "et il ne se souvient plus s'il a déjà été heureux", "parce que toutes les versions de lui avant celle-ci sont mortes en hurlant", "pendant que sa mère regardait depuis la porte sans rien faire",
+            "et quand il s'est réveillé, tout a recommencé, encore et encore et encore", "et quelque part, quelqu'un a ri et a appuyé sur Générer", "parce qu'il le méritait, d'après l'histoire", "et le trou en lui s'est un peu agrandi"
         ]
     },
     who: [
@@ -1232,7 +1322,17 @@ STORY.it = {
             "ha intonato 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' ballando intorno a un falò",
             "ha urlato 'amankupoh!' fingendo malattie mentali e tic davanti alla telecamera", "ha eseguito una tirata di pantaloncini leggendaria davanti a 500 spettatori sbalorditi",
             "ha sfidato un microonde a una battaglia di ballo", "ha guidato un autobus di gelatina attraverso un autolavaggio", "ha provato a vendere l'oceano su un sito di annunci", "ha trasformato l'intera città in un castello gonfiabile",
-            "ha urlato la lista della spesa a un aereo di passaggio", "ha fatto braccio di ferro con una statua e ha vinto davvero", "è entrato in parlamento in groppa a un'anatra gigante", "ha fatto il giocoliere con sette ananas in fiamme"
+            "ha urlato la lista della spesa a un aereo di passaggio", "ha fatto braccio di ferro con una statua e ha vinto davvero", "è entrato in parlamento in groppa a un'anatra gigante", "ha fatto il giocoliere con sette ananas in fiamme",
+            "si è strappato la faccia per vedere se sotto c'era qualcuno, ma c'era solo un altro {A}", "ha apparecchiato per la sua famiglia, morta da undici anni, e ha servito la cena lo stesso", "ha seppellito il suo cane in giardino e ogni notte lo dissotterra per chiedergli scusa", "ha bruciato la casa con dentro tutti i suoi ricordi e ci si è scaldato le mani davanti",
+            "si è strappato i denti uno a uno e li ha piantati, sperando che crescesse qualcosa che lo amasse", "si è cucito la bocca perché le urla restassero finalmente dentro", "ha mangiato l'ultima foto di sua madre così nessuno potrà più portargliela via", "ha strappato le ali a cento falene e si è scusato con ognuna chiamandola per nome",
+            "ha strangolato il narratore nei suoi sogni e si è svegliato con le mani piene d'inchiostro", "ha scritto 'aiutatemi' diecimila volte sui muri con il suo sangue e nessuno l'ha letto", "ha contato i giorni da quando qualcuno ha detto il suo nome e ha perso il conto a quarantamila", "ha sorriso alla telecamera mentre qualcosa sotto la sua pelle continuava a muoversi",
+            "ha ucciso la sua stessa famiglia perché erano solo frutto della sua immaginazione e lui si sentiva solo", "ha urlato al cielo finché non è piovuto sangue misto a pezzi di carne, e l'ha bevuto tutto", "ha scritto una lettera a [REDACTED] chiedendo perdono e non l'ha mai spedita", "ha inciso la sua faccia nello specchio con un coltello, ma non era ancora lui",
+            "si è seduto in una stanza piena di sconosciuti identici a lui e li ha insultati finché non se ne sono andati", "ha costruito una macchina del tempo di cartone per tornare a quando era felice, ma l'ha portato solo a ieri", "ha scritto una storia su se stesso che finiva con 'e poi si svegliò e capì che era tutto un sogno', ma lui non si è mai svegliato", "si è seduto sul bordo del mondo e ha guardato il tramonto per sette giorni di fila finché non ha dimenticato che giorno fosse",
+            "ha fatto un respiro profondo e si è puntato alla tempia una pistola softair senza pallini", "si è tagliato entrambe le mani con una sega circolare perché non riusciva a controllarle", "ha messo la mano sinistra in un frullatore e l'ha acceso, riducendola a un pezzo di carne sanguinolenta", "ha mangiato cadaveri in decomposizione perché gliel'ha detto il narratore, e anche le voci",
+            "ha provato a pugnalarsi più volte con un coltello da cucina e in qualche modo non è morto, ma sta ancora sanguinando", "si è staccato le dita a morsi e si è cavato gli occhi a causa della sua esistenza", "si è buttato da una finestra da qualche parte e si è rotto 207 ossa",
+            "ha provato a sventrarsi con la punta delle dita", "ha provato a grattarsi via i bulbi oculari per non vedere mai più [REDACTED]", "si è squarciato il collo e ha tirato fuori i vasi sanguigni finché non è rimasta solo carne scorticata", "ha sbattuto la testa contro il muro",
+            "è rimasto sveglio nove giorni di fila solo perché l'Uomo col Cappello venisse a trovarlo, perché nessun altro gli parla da anni", "ha investito una famiglia di quattro persone con la sua macchina perché erano il diavolo", "ha mangiato una persona viva mentre urlava dal dolore", "ha scritto uno spartito con il suo sangue finché non è rimasto senza pelle e senza dita",
+            "ha scoreggiato al suo stesso funerale ed è l'unica cosa che la gente ricorda di lui", "si è dato fuoco finché la sua faccia non è diventata irriconoscibile, ma tranquilli, si è rigenerato (così può succedere di nuovo domani)", "ha segato la testa del suo vicino con una sega arrugginita"
         ],
         place: [
             "in mezzo all'autostrada", "mentre era in fiamme (un pochino)", "sul tetto di un treno in corsa", "dentro un kopitiam in fiamme",
@@ -1243,7 +1343,10 @@ STORY.it = {
             "dentro una lavatrice alla massima velocità", "sopra una fossa di granchi arrabbiati", "durante un telegiornale in diretta", "alla festa di compleanno di un drago",
             "nel parcheggio dell'aldilà", "a un festival culturale singlish-ebraico",
             "sull'ala di un aereo in volo", "dentro un tornado di noodles", "nel mezzo di una tempesta di fulmini fatta di zuppa", "in cima a un grattacielo fatto di pancake",
-            "in uno stadio pieno di oche che urlavano", "dentro il frullatore più arrabbiato del mondo"
+            "in uno stadio pieno di oche che urlavano", "dentro il frullatore più arrabbiato del mondo",
+            "nella stanza dove tengono le versioni cancellate di lui", "in un ospedale senza medici, solo urla", "in fondo a un pozzo che non ha fondo", "nella sua cameretta d'infanzia, ora piena di sconosciuti con la sua faccia",
+            "in una chiesa dove tutte le panche sono rivolte verso il muro", "dentro una bara con una finestra, così può guardare tutti dimenticarlo",
+            "in purgatorio, perché anche se i suoi peccati gravi forse sono stati perdonati in vita, la sua anima è ancora attaccata al peccato, ai difetti e alle pene temporali non scontate"
         ],
         why: [
             "E NESSUNO L'HA FERMATO", "perché le voci hanno detto di sì", "senza alcun motivo", "e la polizia ha delle domande",
@@ -1254,7 +1357,9 @@ STORY.it = {
             "perché ormai niente ha più senso", "mentre mille anatre starnazzavano in approvazione", "e il telegiornale l'ha chiamato un miracolo", "e ora c'è una sua statua",
             "cosa di cui si pente un pochino",
             "e internet non si riprenderà mai", "mentre la luna urlava di rimando", "perché ha cominciato il tostapane", "e tre pianeti hanno presentato reclamo",
-            "mentre una banda di anatre suonava insieme a lui", "e la troupe del telegiornale locale è svenuta"
+            "mentre una banda di anatre suonava insieme a lui", "e la troupe del telegiornale locale è svenuta",
+            "e le voci gli hanno detto che non era ancora abbastanza", "e non si ricorda se è mai stato felice", "perché tutte le versioni di lui prima di questa sono morte urlando", "mentre sua madre guardava dalla porta senza fare niente",
+            "e quando si è svegliato è successo di nuovo, e di nuovo, e di nuovo", "e da qualche parte qualcuno ha riso e ha premuto Genera", "perché se lo meritava, lo dice la storia", "e il buco dentro di lui è diventato un po' più grande"
         ]
     },
     who: [
@@ -1417,7 +1522,17 @@ STORY.de = {
             "skandierte {A} 'ahin sukung thai thai, sukung, ayamsukung, sampakkung', während er um ein Lagerfeuer tanzte",
             "rief {A} 'amankupoh!', während er vor der Kamera psychische Krankheiten und Tics vortäuschte", "vollführte {A} einen mythischen Shorts-Zug vor 500 fassungslosen Zuschauern",
             "forderte {A} eine Mikrowelle zu einem Dance-Battle heraus", "fuhr {A} einen Bus aus Wackelpudding durch eine Waschanlage", "versuchte {A}, den Ozean auf Kleinanzeigen zu verkaufen", "verwandelte {A} die ganze Stadt in eine Hüpfburg",
-            "schrie {A} seine Einkaufsliste einem vorbeifliegenden Flugzeug zu", "machte {A} Armdrücken mit einer Statue und gewann tatsächlich", "ritt {A} auf einer Riesenente in den Bundestag", "jonglierte {A} mit sieben brennenden Ananas"
+            "schrie {A} seine Einkaufsliste einem vorbeifliegenden Flugzeug zu", "machte {A} Armdrücken mit einer Statue und gewann tatsächlich", "ritt {A} auf einer Riesenente in den Bundestag", "jonglierte {A} mit sieben brennenden Ananas",
+            "zog {A} sich das eigene Gesicht ab, um zu sehen, ob jemand darunter war, aber da war nur noch mehr {A}", "deckte {A} den Tisch für seine Familie, die seit elf Jahren tot ist, und servierte trotzdem das Abendessen", "begrub {A} seinen Hund im Garten und gräbt ihn jede Nacht wieder aus, um sich zu entschuldigen", "brannte {A} das Haus mit all seinen Erinnerungen nieder und wärmte sich davor die Hände",
+            "zog {A} sich die Zähne einzeln und pflanzte sie ein, in der Hoffnung, dass etwas wächst, das ihn liebt", "nähte {A} sich den Mund zu, damit das Schreien endlich drinnen bleibt", "aß {A} das letzte Foto seiner Mutter, damit sie ihm niemand je wieder wegnehmen kann", "riss {A} hundert Motten die Flügel aus und entschuldigte sich bei jeder mit ihrem Namen",
+            "erwürgte {A} den Erzähler im Traum und wachte mit Tinte an den Händen auf", "schrieb {A} zehntausendmal „hilf mir“ mit seinem eigenen Blut an die Wände und niemand las es", "zählte {A} die Tage, seit jemand seinen Namen gesagt hat, und verlor bei vierzigtausend den Überblick", "lächelte {A} in die Kamera, während sich unter seiner Haut etwas weiter bewegte",
+            "ermordete {A} seine eigene Familie, weil sie alle nur Hirngespinste waren und er einsam war", "schrie {A} den Himmel an, bis es Blut mit Fleischbrocken regnete, und er trank alles", "schrieb {A} einen Brief an [REDACTED] und bat um Vergebung, schickte ihn aber nie ab", "ritzte {A} mit einem Messer sein eigenes Gesicht in den Spiegel, aber es war immer noch nicht er",
+            "saß {A} in einem Raum voller Fremder, die alle aussahen wie er, und beleidigte sie, bis sie gingen", "baute {A} eine Zeitmaschine aus Pappe, um in die Zeit zurückzureisen, als er glücklich war, aber sie brachte ihn nur bis gestern", "schrieb {A} eine Geschichte über sich selbst, die mit „und dann wachte er auf und merkte, dass alles nur ein Traum war“ endete, aber er wachte nie auf", "saß {A} am Rand der Welt und sah sieben Tage lang die Sonne untergehen, bis er vergaß, welcher Tag war",
+            "atmete {A} tief durch und hielt sich eine Softairpistole ohne Kugeln an die Schläfe", "sägte {A} sich mit einer Kreissäge beide Hände ab, weil er sie nicht kontrollieren konnte", "steckte {A} seine linke Hand in einen Mixer und schaltete ihn ein, bis nur noch ein blutiger Fleischklumpen übrig war", "aß {A} verwesende Leichen, weil der Erzähler es ihm gesagt hatte, und die Stimmen auch",
+            "versuchte {A} mehrmals, sich mit einem Küchenmesser zu erstechen, und starb irgendwie nicht, aber er blutet immer noch", "biss {A} sich die Finger ab und stach sich die Augen aus, weil er existiert", "sprang {A} irgendwo aus einem Fenster und brach sich 207 Knochen",
+            "versuchte {A}, sich mit den eigenen Fingerspitzen den Bauch aufzureißen", "versuchte {A}, sich die Augäpfel auszukratzen, damit er [REDACTED] nie wieder sehen muss", "riss {A} sich den Hals auf und zog die Blutgefäße heraus, bis nur noch gehäutetes Fleisch übrig war", "schlug {A} seinen Kopf gegen die Wand",
+            "blieb {A} neun Tage am Stück wach, nur damit der Hutmann ihn besucht, weil seit Jahren niemand sonst mit ihm redet", "überfuhr {A} mit seinem eigenen Auto eine vierköpfige Familie, weil sie der Teufel waren", "aß {A} einen Menschen bei lebendigem Leib, während er vor Schmerz schrie", "schrieb {A} eine Partitur mit seinem eigenen Blut, bis er keine Haut und keine Finger mehr hatte",
+            "furzte {A} auf seiner eigenen Beerdigung und das ist das Einzige, woran sich alle bei ihm erinnern", "zündete {A} sich selbst an und brannte, bis sein Gesicht nicht mehr zu erkennen war, aber keine Sorge, er regenerierte sich (damit es morgen wieder passieren kann)", "sägte {A} seinem Nachbarn mit einer rostigen Säge den Kopf ab"
         ],
         place: [
             "mitten auf der Autobahn", "während er (ein bisschen) brannte", "auf dem Dach eines rasenden Zuges", "in einem brennenden Kopitiam",
@@ -1428,7 +1543,10 @@ STORY.de = {
             "in einer Waschmaschine im Schleudergang", "über einer Grube voller wütender Krabben", "während einer Live-Nachrichtensendung", "auf der Geburtstagsparty eines Drachen",
             "auf dem Parkplatz des Jenseits", "auf einem Singlish-jüdischen Kulturfest",
             "auf der Tragfläche eines fliegenden Flugzeugs", "in einem Tornado aus Nudeln", "mitten in einem Gewitter aus Suppe", "auf einem Wolkenkratzer aus Pfannkuchen",
-            "in einem Stadion voller kreischender Gänse", "im wütendsten Mixer der Welt"
+            "in einem Stadion voller kreischender Gänse", "im wütendsten Mixer der Welt",
+            "in dem Raum, in dem sie die gelöschten Versionen von ihm aufbewahren", "in einem Krankenhaus ohne Ärzte, nur mit Schreien", "am Grund eines Brunnens, der keinen Grund hat", "in seinem Kinderzimmer, das jetzt voller Fremder mit seinem Gesicht ist",
+            "in einer Kirche, in der jede Bank zur Wand zeigt", "in einem Sarg mit Fenster, damit er zusehen kann, wie ihn alle vergessen",
+            "im Fegefeuer, weil seine schweren Sünden im Leben vielleicht vergeben wurden, seine Seele aber noch an der Sünde, an ihren Fehlern und an unbezahlten zeitlichen Strafen hängt"
         ],
         why: [
             "UND NIEMAND HAT IHN AUFGEHALTEN", "weil die Stimmen ja gesagt haben", "aus absolut keinem Grund", "und die Polizei hat Fragen",
@@ -1439,7 +1557,9 @@ STORY.de = {
             "weil nichts mehr Sinn ergibt", "während tausend Enten zustimmend quakten", "und die Nachrichten nannten es ein Wunder", "und jetzt gibt es eine Statue von ihm",
             "was er ein kleines bisschen bereut",
             "und das Internet wird sich nie davon erholen", "während der Mond zurückschrie", "weil der Toaster angefangen hat", "und drei Planeten reichten Beschwerde ein",
-            "während eine Blaskapelle aus Enten mitspielte", "und das Team der Lokalnachrichten fiel in Ohnmacht"
+            "während eine Blaskapelle aus Enten mitspielte", "und das Team der Lokalnachrichten fiel in Ohnmacht",
+            "und die Stimmen sagten ihm, dass es immer noch nicht genug war", "und er weiß nicht mehr, ob er jemals glücklich war", "weil jede Version von ihm vor dieser schreiend gestorben ist", "während seine Mutter von der Tür aus zusah und nichts tat",
+            "und als er aufwachte, passierte es wieder, und wieder, und wieder", "und irgendwo lachte jemand und drückte auf Generieren", "weil er es verdient hat, sagt die Geschichte", "und das Loch in ihm wurde ein bisschen größer"
         ]
     },
     who: [
@@ -1602,7 +1722,17 @@ STORY.es = {
             "cantó 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' mientras bailaba alrededor de una hoguera",
             "gritó '¡amankupoh!' mientras fingía enfermedades mentales y tics delante de la cámara", "ejecutó un tirón de pantalón corto mítico delante de 500 espectadores atónitos",
             "retó a un microondas a una batalla de baile", "condujo un autobús de gelatina por un túnel de lavado", "intentó vender el océano en una web de segunda mano", "convirtió toda la ciudad en un castillo hinchable",
-            "le gritó su lista de la compra a un avión que pasaba", "echó un pulso con una estatua y de verdad ganó", "entró al parlamento montado en un pato gigante", "hizo malabares con siete piñas en llamas"
+            "le gritó su lista de la compra a un avión que pasaba", "echó un pulso con una estatua y de verdad ganó", "entró al parlamento montado en un pato gigante", "hizo malabares con siete piñas en llamas",
+            "se arrancó la cara para ver si había alguien debajo, pero solo había más {A}", "le puso la mesa a su familia, muerta hace once años, y aun así les sirvió la cena", "enterró a su perro en el patio y cada noche lo desentierra para pedirle perdón", "quemó la casa con todos sus recuerdos dentro y se quedó ahí calentándose las manos",
+            "se arrancó los dientes uno por uno y los plantó, esperando que creciera algo que lo quisiera", "se cosió la boca para que los gritos por fin se quedaran dentro", "se comió la última foto de su madre para que nadie pudiera volver a quitársela", "les arrancó las alas a cien polillas y se disculpó con cada una por su nombre",
+            "estranguló al narrador en sus sueños y despertó con las manos llenas de tinta", "escribió 'ayúdenme' diez mil veces en las paredes con su propia sangre y nadie lo leyó", "contó los días desde que alguien dijo su nombre y perdió la cuenta en cuarenta mil", "le sonrió a la cámara mientras algo debajo de su piel seguía moviéndose",
+            "asesinó a su propia familia porque todos eran solo producto de su imaginación y él se sentía solo", "le gritó al cielo hasta que llovió sangre mezclada con trozos de carne, y se la bebió toda", "le escribió una carta a [REDACTED] pidiendo perdón y nunca la envió", "talló su propia cara en el espejo con un cuchillo, pero seguía sin ser él",
+            "se sentó en un cuarto lleno de desconocidos que se parecían a él y les soltó insultos hasta que se fueron", "construyó una máquina del tiempo de cartón para volver a cuando era feliz, pero solo lo llevó a ayer", "escribió una historia sobre sí mismo que terminaba con 'y entonces despertó y se dio cuenta de que todo había sido un sueño', pero nunca despertó", "se sentó en el borde del mundo y vio la puesta de sol siete días seguidos hasta olvidar qué día era",
+            "respiró hondo y se puso una pistola de airsoft sin balines en la sien", "se cortó las dos manos con una sierra circular porque no podía controlarlas", "metió la mano izquierda en una licuadora y la encendió, dejándola hecha un trozo de carne ensangrentada", "comió cadáveres podridos porque el narrador se lo dijo, y las voces también",
+            "intentó apuñalarse varias veces con un cuchillo de cocina y de alguna forma no murió, pero sigue sangrando", "se arrancó los dedos a mordidas y se sacó los ojos por culpa de su propia existencia", "saltó por una ventana en algún lugar y se rompió 207 huesos",
+            "intentó destriparse con las puntas de sus propios dedos", "intentó arrancarse los ojos a arañazos para no volver a ver a [REDACTED]", "se desgarró el cuello y se sacó los vasos sanguíneos hasta que solo quedó carne desollada", "se golpeó la cabeza contra la pared",
+            "se quedó despierto nueve días seguidos solo para que el Hombre del Sombrero lo visitara, porque nadie más le habla desde hace años", "atropelló a una familia de cuatro con su propio coche porque eran el diablo", "se comió viva a una persona mientras gritaba de dolor", "escribió una partitura con su propia sangre hasta quedarse sin piel y sin dedos",
+            "se tiró un pedo en su propio funeral y es lo único que la gente recuerda de él", "se prendió fuego hasta que su cara quedó irreconocible, pero tranquilos, se regeneró (para que pueda volver a pasar mañana)", "le cortó la cabeza a su vecino con una sierra oxidada"
         ],
         place: [
             "en medio de la autopista", "mientras estaba en llamas (un poco)", "encima de un tren a toda velocidad", "dentro de un kopitiam en llamas",
@@ -1613,7 +1743,10 @@ STORY.es = {
             "dentro de una lavadora a máxima velocidad", "encima de un foso de cangrejos enfadados", "durante un informativo en directo", "en la fiesta de cumpleaños de un dragón",
             "en el aparcamiento del más allá", "en un festival cultural singlish-judío",
             "en el ala de un avión en pleno vuelo", "dentro de un tornado de fideos", "en medio de una tormenta eléctrica hecha de sopa", "en la cima de un rascacielos hecho de tortitas",
-            "en un estadio lleno de gansos chillando", "dentro de la licuadora más enfadada del mundo"
+            "en un estadio lleno de gansos chillando", "dentro de la licuadora más enfadada del mundo",
+            "en el cuarto donde guardan las versiones borradas de él", "en un hospital sin médicos, solo gritos", "en el fondo de un pozo que no tiene fondo", "en su cuarto de la infancia, ahora lleno de desconocidos que llevan su cara",
+            "en una iglesia donde todas las bancas miran a la pared", "dentro de un ataúd con ventana para que pueda ver cómo todos lo olvidan",
+            "en el purgatorio, porque aunque sus pecados graves quizá fueron perdonados en vida, su alma sigue aferrada al pecado, a sus defectos y a penas temporales sin pagar"
         ],
         why: [
             "Y NADIE LO DETUVO", "porque las voces dijeron que sí", "sin ningún motivo", "y la policía tiene preguntas",
@@ -1624,7 +1757,9 @@ STORY.es = {
             "porque ya nada tiene sentido", "mientras mil patos graznaban en señal de aprobación", "y las noticias lo llamaron milagro", "y ahora hay una estatua suya",
             "de lo cual se arrepiente un poquito",
             "e internet nunca se recuperará", "mientras la luna le gritaba de vuelta", "porque la tostadora empezó", "y tres planetas presentaron una queja",
-            "mientras una banda de música de patos tocaba con él", "y el equipo de las noticias locales se desmayó"
+            "mientras una banda de música de patos tocaba con él", "y el equipo de las noticias locales se desmayó",
+            "y las voces le dijeron que todavía no era suficiente", "y ya no recuerda si alguna vez fue feliz", "porque todas las versiones de él antes de esta murieron gritando", "mientras su madre miraba desde la puerta sin hacer nada",
+            "y cuando despertó volvió a pasar, y otra vez, y otra vez", "y en algún lugar alguien se rió y presionó Generar", "porque se lo merecía, según la historia", "y el agujero dentro de él se hizo un poco más grande"
         ]
     },
     who: [
@@ -1787,7 +1922,17 @@ STORY.ru = {
             "распевал «ahin sukung thai thai, sukung, ayamsukung, sampakkung», танцуя вокруг костра",
             "орал «amankupoh!», изображая на камеру психические расстройства и тики", "исполнил мифический рывок шорт перед 500 ошарашенными зрителями",
             "вызвал микроволновку на танцевальный баттл", "проехал на автобусе из желе через автомойку", "попытался продать океан на Авито", "превратил весь город в батут",
-            "прокричал свой список покупок пролетающему самолёту", "армрестлил со статуей и правда победил", "въехал в парламент верхом на гигантской утке", "жонглировал семью горящими ананасами"
+            "прокричал свой список покупок пролетающему самолёту", "армрестлил со статуей и правда победил", "въехал в парламент верхом на гигантской утке", "жонглировал семью горящими ананасами",
+            "содрал с себя лицо, чтобы посмотреть, есть ли под ним кто-нибудь, но там был только ещё один {A}", "накрыл на стол для своей семьи, умершей одиннадцать лет назад, и всё равно подал им ужин", "похоронил свою собаку во дворе и каждую ночь выкапывает её, чтобы попросить прощения", "сжёг дом со всеми своими воспоминаниями внутри и грел перед ним руки",
+            "вырвал себе зубы один за другим и посадил их, надеясь, что вырастет что-то, что будет его любить", "зашил себе рот, чтобы крик наконец остался внутри", "съел последнюю фотографию своей мамы, чтобы никто больше не смог её забрать", "оборвал крылья сотне мотыльков и извинился перед каждым по имени",
+            "задушил рассказчика во сне и проснулся с чернилами на руках", "написал «помогите» десять тысяч раз на стенах собственной кровью, и никто этого не прочитал", "считал дни с тех пор, как кто-то произносил его имя, и сбился со счёта на сорока тысячах", "улыбался в камеру, пока что-то под его кожей продолжало шевелиться",
+            "убил собственную семью, потому что все они были лишь плодом его воображения, а ему было одиноко", "орал на небо, пока не пошёл дождь из крови с кусками мяса, и выпил его весь", "написал письмо [REDACTED] с просьбой о прощении и так его и не отправил", "вырезал ножом своё лицо на зеркале, но это всё равно был не он",
+            "сидел в комнате, полной незнакомцев, похожих на него, и осыпал их оскорблениями, пока они не ушли", "построил машину времени из картона, чтобы вернуться туда, где он был счастлив, но она перенесла его только во вчера", "написал о себе историю, которая заканчивалась словами «и тут он проснулся и понял, что всё это был сон», но он так и не проснулся", "сидел на краю света и смотрел на закат семь дней подряд, пока не забыл, какой сегодня день",
+            "глубоко вдохнул и приставил к виску страйкбольный пистолет без шариков", "отпилил себе обе руки циркулярной пилой, потому что не мог их контролировать", "засунул левую руку в блендер и включил его, превратив её в кровавый кусок мяса", "ел гниющие трупы, потому что так сказал рассказчик, и голоса тоже",
+            "несколько раз пытался заколоть себя кухонным ножом и почему-то не умер, но до сих пор истекает кровью", "откусил себе пальцы и выколол себе глаза из-за собственного существования", "выпрыгнул откуда-то из окна и сломал 207 костей",
+            "пытался выпотрошить себя кончиками собственных пальцев", "пытался выцарапать себе глазные яблоки, чтобы больше никогда не видеть [REDACTED]", "разорвал себе шею и вытягивал кровеносные сосуды, пока не осталось одно ободранное мясо", "бился головой об стену",
+            "не спал девять дней подряд, только чтобы к нему пришёл Человек в шляпе, потому что больше никто не разговаривает с ним уже много лет", "переехал на своей машине семью из четырёх человек, потому что они были дьяволом", "съел человека заживо, пока тот кричал от боли", "писал партитуру собственной кровью, пока не остался без кожи и без пальцев",
+            "пёрнул на собственных похоронах, и это единственное, что о нём все запомнили", "поджёг себя и горел, пока его лицо не стало неузнаваемым, но не волнуйтесь, он регенерировал (чтобы завтра это могло повториться)", "отпилил голову своему соседу ржавой пилой"
         ],
         place: [
             "посреди шоссе", "слегка горя", "на крыше несущегося поезда", "в горящем копитиаме",
@@ -1798,7 +1943,10 @@ STORY.ru = {
             "в стиральной машине на полной скорости", "над ямой со злыми крабами", "во время прямого эфира новостей", "на дне рождения дракона",
             "на парковке загробного мира", "на синглиш-еврейском культурном фестивале",
             "на крыле летящего самолёта", "внутри торнадо из лапши", "посреди грозы из супа", "на вершине небоскрёба из блинов",
-            "на стадионе, полном орущих гусей", "в самом злом блендере в мире"
+            "на стадионе, полном орущих гусей", "в самом злом блендере в мире",
+            "в комнате, где хранят его удалённые версии", "в больнице без врачей, где есть только крики", "на дне колодца, у которого нет дна", "в своей детской комнате, которая теперь полна незнакомцев с его лицом",
+            "в церкви, где все скамьи повёрнуты к стене", "в гробу с окошком, чтобы он видел, как все его забывают",
+            "в чистилище, потому что его тяжкие грехи, возможно, были прощены при жизни, но душа всё ещё цепляется за грех, свои пороки и неоплаченные временные наказания"
         ],
         why: [
             "И НИКТО ЕГО НЕ ОСТАНОВИЛ", "потому что голоса сказали да", "абсолютно без причины", "и у полиции есть вопросы",
@@ -1809,7 +1957,9 @@ STORY.ru = {
             "потому что больше ничего не имеет смысла", "пока тысяча уток одобрительно крякала", "и новости назвали это чудом", "и теперь у него есть памятник",
             "о чём он слегка жалеет",
             "и интернет никогда не оправится", "пока луна орала в ответ", "потому что тостер первый начал", "и три планеты подали жалобу",
-            "пока утиный оркестр ему подыгрывал", "и съёмочная группа местных новостей упала в обморок"
+            "пока утиный оркестр ему подыгрывал", "и съёмочная группа местных новостей упала в обморок",
+            "и голоса сказали ему, что этого всё ещё мало", "и он не помнит, был ли он когда-нибудь счастлив", "потому что все его версии до этой умерли с криком", "пока его мама смотрела из дверей и ничего не делала",
+            "а когда он проснулся, всё повторилось, и снова, и снова", "и где-то кто-то засмеялся и нажал «Сгенерировать»", "потому что он это заслужил, так сказала история", "и дыра внутри него стала чуть больше"
         ]
     },
     who: [
@@ -1972,7 +2122,17 @@ STORY.tl = {
             "nag-chant si {A} ng 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' habang sumasayaw sa paligid ng siga",
             "sumigaw si {A} ng 'amankupoh!' habang nagkukunwaring may mental illness at tics sa harap ng camera", "gumawa si {A} ng maalamat na shorts pull sa harap ng 500 nagulat na tao",
             "hinamon ni {A} ang microwave sa dance battle", "nagmaneho si {A} ng bus na gawa sa jelly papasok sa car wash", "sinubukang ibenta ni {A} ang dagat online", "ginawang bouncy castle ni {A} ang buong lungsod",
-            "isinigaw ni {A} ang grocery list niya sa dumadaang eroplano", "nakipag-arm wrestling si {A} sa isang rebulto at nanalo talaga", "sumakay si {A} sa higanteng pato papasok sa Kongreso", "nag-juggle si {A} ng pitong nagliliyab na pinya"
+            "isinigaw ni {A} ang grocery list niya sa dumadaang eroplano", "nakipag-arm wrestling si {A} sa isang rebulto at nanalo talaga", "sumakay si {A} sa higanteng pato papasok sa Kongreso", "nag-juggle si {A} ng pitong nagliliyab na pinya",
+            "binalatan ni {A} ang sarili niyang mukha para makita kung may tao sa ilalim, pero {A} lang din pala", "naghain si {A} ng hapunan para sa pamilya niyang labing-isang taon nang patay", "inilibing ni {A} ang aso niya sa bakuran at hinuhukay ito gabi-gabi para humingi ng tawad", "sinunog ni {A} ang bahay na puno ng mga alaala niya at nagpainit ng kamay sa harap nito",
+            "binunot ni {A} ang mga ngipin niya isa-isa at itinanim, umaasang may tutubong magmamahal sa kanya", "tinahi ni {A} ang sarili niyang bibig para manatili na sa loob ang mga sigaw", "kinain ni {A} ang huling litrato ng nanay niya para wala nang makakuha ulit sa kanya", "binunot ni {A} ang mga pakpak ng isang daang gamugamo at humingi ng tawad sa bawat isa sa pangalan nito",
+            "sinakal ni {A} ang narrator sa panaginip niya at nagising na puno ng tinta ang mga kamay", "isinulat ni {A} ang 'tulungan niyo ako' nang sampung libong beses sa pader gamit ang sarili niyang dugo at walang nagbasa", "binilang ni {A} ang mga araw mula nang may bumanggit ng pangalan niya at nawala siya sa bilang sa apatnapung libo", "ngumiti si {A} sa camera habang may gumagalaw pa rin sa ilalim ng balat niya",
+            "pinatay ni {A} ang sarili niyang pamilya dahil gawa-gawa lang sila ng imahinasyon niya at malungkot siya", "sinigawan ni {A} ang langit hanggang umulan ng dugong may halong piraso ng laman, at ininom niya lahat", "sumulat si {A} ng liham kay [REDACTED] para humingi ng tawad pero hindi niya ito ipinadala", "inukit ni {A} ang sarili niyang mukha sa salamin gamit ang kutsilyo, pero hindi pa rin iyon siya",
+            "umupo si {A} sa kwartong puno ng mga estrangherong kamukha niya at minura sila hanggang umalis sila", "gumawa si {A} ng time machine mula sa karton para bumalik sa panahong masaya pa siya, pero hanggang kahapon lang ang naabot nito", "sumulat si {A} ng kwento tungkol sa sarili niya na nagtapos sa 'at nagising siya at napagtantong panaginip lang pala ang lahat', pero hindi na siya nagising", "umupo si {A} sa dulo ng mundo at pinanood ang paglubog ng araw nang pitong araw na sunod-sunod hanggang makalimutan niya kung anong araw na",
+            "huminga nang malalim si {A} at itinutok sa sentido niya ang airsoft gun na walang bala", "pinutol ni {A} ang dalawang kamay niya gamit ang circular saw dahil hindi niya ito makontrol", "ipinasok ni {A} ang kaliwang kamay niya sa blender at binuksan ito hanggang maging duguang piraso ng laman", "kumain si {A} ng mga nabubulok na bangkay dahil inutos ng narrator, at ng mga boses din",
+            "paulit-ulit na sinaksak ni {A} ang sarili gamit ang kutsilyo sa kusina at kahit papaano ay hindi namatay, pero dumudugo pa rin siya", "kinagat ni {A} hanggang maputol ang mga daliri niya at dinukit ang sarili niyang mga mata dahil sa pag-iral niya", "tumalon si {A} mula sa isang bintana kung saan at nabalian ng 207 buto",
+            "sinubukan ni {A} na laslasin ang sarili niyang tiyan gamit ang dulo ng mga daliri niya", "sinubukan ni {A} na kalmutin ang sarili niyang mga mata para hindi na niya makita si [REDACTED]", "pinunit ni {A} ang sarili niyang leeg at hinila palabas ang mga ugat niya hanggang laman na lang na binalatan ang natira", "iniuntog ni {A} ang ulo niya sa pader",
+            "hindi natulog si {A} nang siyam na araw para lang bisitahin siya ng Hat Man, kasi ilang taon nang walang kumakausap sa kanya", "sinagasaan ni {A} ang isang pamilyang may apat na miyembro gamit ang sarili niyang kotse dahil sila raw ang demonyo", "kinain ni {A} nang buhay ang isang tao habang sumisigaw ito sa sakit", "sumulat si {A} ng piyesa ng musika gamit ang sarili niyang dugo hanggang wala na siyang balat at daliri",
+            "umutot si {A} sa sarili niyang lamay at iyon lang ang naaalala ng lahat tungkol sa kanya", "sinunog ni {A} ang sarili niya hanggang hindi na makilala ang mukha niya, pero huwag mag-alala, nag-regenerate siya (para mangyari ulit bukas)", "pinugutan ni {A} ang kapitbahay niya gamit ang kalawanging lagari"
         ],
         place: [
             "sa gitna ng highway", "habang nasusunog (konti)", "sa ibabaw ng humaharurot na tren", "sa loob ng nasusunog na kopitiam",
@@ -1983,7 +2143,10 @@ STORY.tl = {
             "sa loob ng washing machine na naka-full speed", "sa ibabaw ng hukay na puno ng galit na alimango", "habang live ang balita", "sa birthday party ng isang dragon",
             "sa parking lot ng kabilang buhay", "sa isang Singlish-Jewish cultural fest",
             "sa pakpak ng lumilipad na eroplano", "sa loob ng buhawing gawa sa pansit", "sa gitna ng kidlat na gawa sa sabaw", "sa tuktok ng skyscraper na gawa sa pancake",
-            "sa stadium na puno ng sumisigaw na gansa", "sa loob ng pinakagalit na blender sa mundo"
+            "sa stadium na puno ng sumisigaw na gansa", "sa loob ng pinakagalit na blender sa mundo",
+            "sa kwartong pinagtataguan nila ng mga binurang bersyon niya", "sa loob ng ospital na walang doktor, puro sigaw lang", "sa ilalim ng balong walang ilalim", "sa kwarto niya noong bata pa siya, na puno na ngayon ng mga estrangherong suot ang mukha niya",
+            "sa simbahang nakaharap sa pader ang lahat ng upuan", "sa loob ng kabaong na may bintana para mapanood niya ang lahat na makalimot sa kanya",
+            "sa purgatoryo, dahil maaaring napatawad na ang mabibigat niyang kasalanan noong buhay pa siya pero kumakapit pa rin ang kaluluwa niya sa kasalanan, sa mga kapintasan, at sa mga parusang hindi pa nababayaran"
         ],
         why: [
             "AT WALANG PUMIGIL SA KANYA", "kasi sabi ng mga boses oo", "nang walang kahit anong dahilan", "at may mga tanong ang pulis",
@@ -1994,7 +2157,9 @@ STORY.tl = {
             "kasi wala nang may sense", "habang sumasang-ayon ang isang libong pato", "at tinawag itong himala ng balita", "at may rebulto na siya ngayon",
             "na medyo pinagsisisihan niya",
             "at hindi na makaka-recover ang internet", "habang sumisigaw pabalik ang buwan", "kasi ang toaster ang nauna", "at tatlong planeta ang nag-file ng reklamo",
-            "habang tumutugtog ang marching band ng mga pato", "at nahimatay ang news crew"
+            "habang tumutugtog ang marching band ng mga pato", "at nahimatay ang news crew",
+            "at sabi ng mga boses hindi pa rin iyon sapat", "at hindi na niya maalala kung naging masaya ba siya kahit kailan", "kasi lahat ng bersyon niya bago ito ay namatay nang sumisigaw", "habang nanonood ang nanay niya mula sa pinto at walang ginawa",
+            "at pagkagising niya nangyari ulit, at ulit, at ulit", "at sa kung saan, may tumawa at pumindot ng Generate", "kasi deserve niya raw, sabi ng kwento", "at lumaki nang kaunti ang butas sa loob niya"
         ]
     },
     who: [
@@ -2147,7 +2312,17 @@ STORY.owo = {
             "scweamed AIGOO whiwe wunnying thwough Owchawd Woad", "chanted twipwe t at 3 AM in a synyagogue", "ate a whowe boww of [REDACTED] and then thwew up a bwack biwe", "yewwed 'I AM DA ONYE WHO KNYOCKS' at a wandom stwangew",
             "entewed a compwete shutdown because someonye intewwupted his hypewfixation", "chanted 'ahin sukung thai thai, sukung, ayamsukung, sampakkung' whiwe dancing awound a bonfiwe", "shouted 'amankupoh!' whiwe faking mentaw iwwnyesses and tics on camewa", "executed a mythicaw showts puww in fwont of 500 stunnyed onwookews",
             "chawwenged a micwowave to a dance battwe", "dwuv a bus made of jewwy thwough a caw wash", "twied to seww da ocean on an onwinye mawketpwace", "tuwnyed da entiwe city into a bouncy castwe",
-            "scweamed his gwocewy wist at a passing aiwpwanye", "awm wwestwed a statue and actuawwy won", "wode a giant duck into pawwiament", "juggwed seven fwaming pinyeappwes"
+            "scweamed his gwocewy wist at a passing aiwpwanye", "awm wwestwed a statue and actuawwy won", "wode a giant duck into pawwiament", "juggwed seven fwaming pinyeappwes",
+            "peewed off his own face to see if anyonye was undewnyeath, but it was just mowe {A} uwu", "set da tabwe fow his famiwy, who have been dead fow eweven yeaws, and sewved dem dinnyew anyway", "buwied his dog in da backyawd and digs it up evewy nyight to say sowwy >w<", "buwnyed down da house with aww his memowies inside and stood dewe wawming his hands",
+            "puwwed out his teeth onye by onye and pwanted dem, hoping something wouwd gwow dat woved him", "sewed his own mouth shut so da scweaming wouwd finyawwy stay inside x3", "ate da wast photo of his mothew so nyobody couwd evew take hew away again", "towe da wings off a hundwed moths and apowogized to each onye by nyame (・`ω´・)",
+            "stwangwed da nyawwatow in his dweams and woke up with ink on his hands", "wwote 'hewp me' ten thousand times on da wawws in his own bwood and nyobody wead it uwu", "counted da days since anyonye said his nyame and wost count at fowty thousand", "smiwed fow da camewa whiwe something undew his skin kept moving ^w^",
+            "muwdewed his own famiwy because dey wewe aww just figments of his imaginyation and he was wonyewy uwu", "scweamed at da sky untiw it wainyed bwood mixed with chunks of fwesh and he dwank it aww", "wwote a wettew to [REDACTED] asking fow fowgivenyess and nyevew sent it >w<", "took a knife to da miwwow and cawved his own face into it, but it was stiww nyot him",
+            "sat in a woom fuww of stwangews who aww wooked wike him and thwew swuws at dem untiw dey weft", "buiwt a time machinye out of cawdboawd and twied to go back to when he was happy, but it onwy took him to yestewday x3", "wwote a stowy about himsewf dat ended with 'and den he woke up and weawized it was aww a dweam', but he nyevew woke up", "sat on da edge of da wowwd and watched da sun set fow seven days stwaight untiw he fowgot what day it was",
+            "took a deep bweath and hewd an aiwsoft gun with nyo BBs to his tempwe (・`ω´・)", "chopped off both of his own hands with a ciwcuwaw saw because he couwd nyot contwow dem", "put his weft hand in a bwendew and tuwnyed it on, weducing it to a chunk of bwoody fwesh uwu", "ate wotting cowpses because da nyawwatow towd him to, and da voices did too",
+            "twied to stab himsewf muwtipwe times with a kitchen knife and somehow didnt die, but he is stiww bweeding >w<", "bit his own fingews off and gouged out his own eyes because of his existence", "jumped out of a window somewhewe and bwoke 207 bonyes ^w^",
+            "twied to disembowew himsewf with his own fingewtips", "twied to scwatch out his own eyebawws so he couwd nyevew see [REDACTED] again uwu", "wipped open his own nyeck and puwwed out his bwood vessews untiw it was just fwayed meat", "swammed his head against da waww x3",
+            "stayed awake fow nyinye days stwaight just so The Hat Man wouwd visit, because nyobody ewse has tawked to him in yeaws", "wan ovew a famiwy of fouw with his own caw because dey wewe da deviw (・`ω´・)", "ate a pewson awive whiwe dey scweamed in pain", "wwote a music scowe in his own bwood untiw he was skinwess and fingewwess",
+            "fawted at his own funyewaw and it was da onwy thing anyonye wemembewed about him ^w^", "set himsewf on fiwe and buwnyed untiw his face was unwecognyizabwe, but dont wowwy, he wegenyewated (so it can happen again tomowwow) >w<", "chopped his neighbow's head off with a wusty saw (・`ω´・)"
         ],
         place: [
             "in da middwe of da highway", "whiwe on fiwe (a widdle)", "on top of a speeding twain", "inside a buwnying kopitiam",
@@ -2157,7 +2332,10 @@ STORY.owo = {
             "at da finyawe of a cooking show", "beside an expwoding bakewy", "in fwont of da whowe town", "at da top of a vewy taww nyoodwe",
             "inside a washing machinye at fuww speed", "abuv a pit of angwy cwabs", "duwing a wive nyews bwoadcast", "at a dwagons biwthday pawty",
             "in da pawking wot of da aftewwife", "at a Singwish-Jewish cuwtuwaw fest", "on da wing of a fwying aiwpwanye", "inside a townyado made of nyoodwes",
-            "in da middwe of a wightnying stowm made of soup", "on top of a skyscwapew made of pancakes", "in a stadium fuww of scweaming geese", "inside da wowwd's angwiest bwendew"
+            "in da middwe of a wightnying stowm made of soup", "on top of a skyscwapew made of pancakes", "in a stadium fuww of scweaming geese", "inside da wowwd's angwiest bwendew",
+            "in da woom whewe dey keep da deweted vewsions of him", "inside a hospitaw with nyo doctows, onwy scweaming", "at da bottom of a weww dat has nyo bottom", "in his chiwdhood bedwoom, which is nyow fuww of stwangews weawing his face",
+            "in a chuwch whewe evewy pew faces da waww", "inside a coffin with a window so he can watch evewyonye fowget him",
+            "in puwgatowy, because his souw may have had its sewious sins fowgiven in wife but stiww cwings to sin, chawactew fwaws and unpaid tempowaw punyishment"
         ],
         why: [
             "AND NYOBODY STOPPED HIM *pounces*", "because da voices said yes rawr~", "fow absowutewy nyo weason", "and da powice have questions",
@@ -2167,7 +2345,9 @@ STORY.owo = {
             "because da spoons towd him to (・`ω´・)", "and da mayow wesignyed immediatewy rawr~", "which bwoke thwee waws of physics", "and then he did it again >w<",
             "because nyothing makes sense anymowe OwO", "whiwe a thousand ducks quacked in appwovaw *blushes*", "and da nyews cawwed it a miwacwe", "and nyow thewes a statue of him >w<",
             "which he wegwets swightwy", "and da intewnyet wiww nyevew wecuvw rawr~", "whiwe da moon scweamed back ^w^", "because da toastew stawted it rawr~",
-            "and thwee pwanyets fiwed compwaints (・`ω´・)", "whiwe a mawching band of ducks pwayed awong *boops your snoot*", "and da wocaw nyews cwew fainted x3"
+            "and thwee pwanyets fiwed compwaints (・`ω´・)", "whiwe a mawching band of ducks pwayed awong *boops your snoot*", "and da wocaw nyews cwew fainted x3",
+            "and da voices towd him it stiww wasnt enyough uwu", "and he cant wemembew if he was evew happy", "because evewy vewsion of him befowe dis onye died scweaming >w<", "whiwe his mothew watched fwom da doowway and did nyothing",
+            "and when he woke up it happenyed again, and again, and again x3", "and somewhewe, someonye waughed and pwessed Genyewate", "because he desewved it, da stowy said so", "and da howe inside him got a widdwe biggew ^w^"
         ]
     },
     who: [
