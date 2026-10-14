@@ -82,6 +82,71 @@ h1{
     }
 }
 
+.tw.touched{
+    transform: translateY(-6px);
+}
+
+.w-akiong.touched{
+    --top: #ffffff;
+    --bottom: #b5b5b5;
+    filter: drop-shadow(0 0 1.5px rgba(0, 0, 0, 0.9)) drop-shadow(0 2px 0 rgba(0, 0, 0, 0.35));
+}
+
+.w-schizo.touched{
+    --top: #ff3b3b;
+    --bottom: #8b0000;
+}
+
+.w-slop.touched{
+    --top: #4cff7a;
+    --bottom: #0e7a2e;
+}
+
+.w-cone.touched{
+    --top: #a30000;
+    --bottom: #3d0000;
+}
+
+@media (hover: none){
+    .tw{
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .tw{
+        --top: #ffffff;
+        --bottom: #dcdcdc;
+        color: #ffffff;
+        filter: drop-shadow(0 0 1.5px rgba(0, 0, 0, 0.9)) drop-shadow(0 2px 0 rgba(0, 0, 0, 0.35));
+    }
+
+    .w-akiong.touched{
+        --top: #000000;
+        --bottom: #4a4a4a;
+        filter: drop-shadow(0 0 1.5px rgba(255, 255, 255, 0.9)) drop-shadow(0 2px 0 rgba(255, 255, 255, 0.35));
+    }
+}
+
+@media (prefers-color-scheme: dark) and (hover: hover) and (pointer: fine){
+    .w-akiong:hover{
+        --top: #000000;
+        --bottom: #4a4a4a;
+        filter: drop-shadow(0 0 1.5px rgba(255, 255, 255, 0.9)) drop-shadow(0 2px 0 rgba(255, 255, 255, 0.35));
+    }
+}
+
+@media (forced-colors: active){
+    .tw{
+        background-image: none;
+        color: CanvasText;
+        -webkit-text-fill-color: CanvasText;
+        filter: none;
+    }
+}
+
 /* story letters get PRESSED */
 .drop{
     position: relative;
@@ -93,6 +158,36 @@ h1{
     30%{ top: 0.14em; }
     65%{ top: -0.06em; }
     100%{ top: 0; }
+}
+
+.akiong-text{
+    color: #d10000;
+    font-weight: bold;
+    text-transform: none;
+    animation: akiongshiver 0.12s steps(2) infinite;
+    position: relative;
+}
+
+.akiong-text.erasing{
+    animation: akiongflicker 0.18s steps(2) infinite;
+}
+
+@keyframes akiongshiver{
+    0%{ left: 0; }
+    50%{ left: 0.5px; }
+    100%{ left: -0.5px; }
+}
+
+@keyframes akiongflicker{
+    0%{ opacity: 1; }
+    50%{ opacity: 0.45; }
+    100%{ opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce){
+    .akiong-text, .akiong-text.erasing{
+        animation: none;
+    }
 }
 
 /* the chick letters*/
@@ -229,7 +324,7 @@ button:focus-visible{
     .tw{
         transition: none;
     }
-    .tw:hover{
+    .tw:hover, .tw.touched{
         transform: none;
     }
 }
@@ -741,4 +836,80 @@ button.chick-btn.nod:active{
     color: gray;
     font-size: 14px;
     margin: 10px 0 20px 0;
+}
+
+.menu{
+    position: fixed;
+    inset: 0;
+    z-index: 99000;
+    display: flex;
+    background-color: #eeeeee;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.menu[hidden]{
+    display: none;
+}
+
+.menu-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(14px, 3vh, 28px);
+    width: 100%;
+    max-width: 640px;
+    min-height: 100%;
+    margin: auto;
+    padding: 24px 16px calc(24px + env(safe-area-inset-bottom, 0px)) 16px;
+    text-align: center;
+}
+
+.menu-icon{
+    display: block;
+    width: min(260px, 60vw, 38vh);
+    height: min(260px, 60vw, 38vh);
+    border-radius: 24px;
+    flex-shrink: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.menu-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 0.25em;
+    font-size: clamp(28px, 9vw, 52px);
+    line-height: 1.15;
+    margin: 0;
+    min-width: 0;
+}
+
+button.menu-btn{
+    min-width: 180px;
+    height: 52px;
+    margin: 0;
+    padding: 0 24px;
+    font-size: 20px;
+    border-radius: 14px;
+}
+
+@media (max-height: 480px) and (orientation: landscape){
+    .menu-inner{
+        gap: 10px;
+    }
+    .menu-icon{
+        width: min(160px, 32vh);
+        height: min(160px, 32vh);
+    }
+    .menu-title{
+        font-size: clamp(22px, 5vw, 36px);
+    }
+    button.menu-btn{
+        height: 44px;
+        font-size: 17px;
+    }
 }
