@@ -30,7 +30,9 @@ var FILE_PAINTING = "images/AkiongPainting.png";
 var FILE_PLANT = "images/Plant.jpg";
 var FILE_CHICK = "images/Chick.jpg";
 var FILE_CHICK2 = "images/Chick2.jpg";
-var FILE_EVIL_CHICK = "images/EvilChick.png";
+var FILE_EVIL_CHICK = "images/misc/EvilChick.png";
+var FILE_ASSISTANT_NARRATOR = "images/misc/AssistantNarrator.png";
+var FILE_AKIONG_UNUSED = "images/misc/AkiongUnused.png";
 var FILE_CLICK_SOUND = "sounds/ClickSFX.mp3";
 var FILE_KEYBOARD_SOUND = "sounds/KeyboardSFX.MP3";
 var FILE_CHICK_SOUND = "sounds/ChickSound.mp3";
@@ -39,6 +41,7 @@ var FILE_SUSPENSE = "sounds/Suspension.mp3";
 var FILE_LIGHTS_ON = "sounds/LightsOn.mp3";
 var FILE_SIREN_BOY = "images/SirenBoy.png";
 var FILE_SIREN = "sounds/Siren.mp3";
+var FILE_SOB = "sounds/Sobbing.mp3";
 
 // ----- SOUND VOLUMES -----
 var CLICK_VOLUME = 0.5;
@@ -47,6 +50,7 @@ var CHICK_VOLUME = 0.5;
 var SUSPENSE_VOLUME = 0.5;
 var LIGHTS_ON_VOLUME = 0.5;
 var SIREN_VOLUME = 0.5;
+var SOB_VOLUME = 0.5;
 
 // ----- TYPING SOUND -----
 var KEY_SOUNDS = 8;
@@ -70,6 +74,21 @@ var EVIL_CUT_EARLY_MS = 2000;
 // ----- SIREN / -9999 SOCIAL CREDIT EVENT -----
 var SIREN_ENABLED = true;
 
+// ----- AKIONG EVENT -----
+
+var AKIONG_ENABLED = true;
+var AKIONG_TALK_CHANCE = 0.0003;
+var AKIONG_MIN_WORDS = 60;
+var AKIONG_TYPE_MS = 75;
+var AKIONG_PAUSE_MS = 450;
+var AKIONG_HOLD_MS = 2600;
+var AKIONG_ERASE_MS = 22;
+var SOB_CHANCE = 0.0005; //ts not sobbing sound but whatever.
+
+var PAINTING_SWAP_ENABLED = true;
+var PAINTING_SWAP_CHANCE = 0.005;
+var PAINTING_SWAP_MS = 2000;
+
 // makes sure the volume is a real number between 0 and 1
 function safeVolume(v){
     if(typeof v !== "number" || isNaN(v)){
@@ -91,6 +110,7 @@ CHICK_VOLUME = safeVolume(CHICK_VOLUME);
 SUSPENSE_VOLUME = safeVolume(SUSPENSE_VOLUME);
 LIGHTS_ON_VOLUME = safeVolume(LIGHTS_ON_VOLUME);
 SIREN_VOLUME = safeVolume(SIREN_VOLUME);
+SOB_VOLUME = safeVolume(SOB_VOLUME);
 KEY_SOUNDS = Math.round(safeNumber(KEY_SOUNDS, 1, 16, 8));
 KEY_GAP_MS = safeNumber(KEY_GAP_MS, 0, 1000, 35);
 CHICK_FRAME_MS = safeNumber(CHICK_FRAME_MS, 100, 10000, 500);
@@ -98,14 +118,29 @@ CHICK_TALK_CHANCE = safeNumber(CHICK_TALK_CHANCE, 0, 1, 0.05);
 CHICK_NOD_PX = safeNumber(CHICK_NOD_PX, 0, 20, 3);
 PARAGRAPH_MIN = Math.round(safeNumber(PARAGRAPH_MIN, 1, 50, 3));
 PARAGRAPH_MAX = Math.round(safeNumber(PARAGRAPH_MAX, PARAGRAPH_MIN, 50, 5));
-CHICK_RAGE_CLICKS = Math.round(safeNumber(CHICK_RAGE_CLICKS, 1, 1000000, 999));
+CHICK_RAGE_CLICKS = Math.round(safeNumber(CHICK_RAGE_CLICKS, 1, 1000000, 666));
 EVIL_FADE_MS = safeNumber(EVIL_FADE_MS, 0, 600000, 9000);
 EVIL_CUT_EARLY_MS = safeNumber(EVIL_CUT_EARLY_MS, 0, EVIL_FADE_MS, 2000);
+AKIONG_TALK_CHANCE = safeNumber(AKIONG_TALK_CHANCE, 0, 1, 0.0015);
+AKIONG_MIN_WORDS = Math.round(safeNumber(AKIONG_MIN_WORDS, 0, 100000, 60));
+AKIONG_TYPE_MS = safeNumber(AKIONG_TYPE_MS, 10, 2000, 75);
+AKIONG_PAUSE_MS = safeNumber(AKIONG_PAUSE_MS, 0, 10000, 450);
+AKIONG_HOLD_MS = safeNumber(AKIONG_HOLD_MS, 0, 60000, 2600);
+AKIONG_ERASE_MS = safeNumber(AKIONG_ERASE_MS, 5, 1000, 22);
+SOB_CHANCE = safeNumber(SOB_CHANCE, 0, 1, 0.0005);
+PAINTING_SWAP_CHANCE = safeNumber(PAINTING_SWAP_CHANCE, 0, 1, 0.005);
+PAINTING_SWAP_MS = safeNumber(PAINTING_SWAP_MS, 100, 60000, 2000);
 if(typeof BLACKOUT_ENABLED !== "boolean"){
     BLACKOUT_ENABLED = true;
 }
 if(typeof SIREN_ENABLED !== "boolean"){
     SIREN_ENABLED = true;
+}
+if(typeof AKIONG_ENABLED !== "boolean"){
+    AKIONG_ENABLED = true;
+}
+if(typeof PAINTING_SWAP_ENABLED !== "boolean"){
+    PAINTING_SWAP_ENABLED = true;
 }
 
 function safeFile(v, normal){
@@ -119,7 +154,9 @@ FILE_PAINTING = safeFile(FILE_PAINTING, "images/AkiongPainting.png");
 FILE_PLANT = safeFile(FILE_PLANT, "images/Plant.jpg");
 FILE_CHICK = safeFile(FILE_CHICK, "images/Chick.jpg");
 FILE_CHICK2 = safeFile(FILE_CHICK2, "images/Chick2.jpg");
-FILE_EVIL_CHICK = safeFile(FILE_EVIL_CHICK, "images/EvilChick.png");
+FILE_EVIL_CHICK = safeFile(FILE_EVIL_CHICK, "images/misc/EvilChick.png");
+FILE_ASSISTANT_NARRATOR = safeFile(FILE_ASSISTANT_NARRATOR, "images/misc/AssistantNarrator.png");
+FILE_AKIONG_UNUSED = safeFile(FILE_AKIONG_UNUSED, "images/misc/AkiongUnused.png");
 FILE_CLICK_SOUND = safeFile(FILE_CLICK_SOUND, "sounds/ClickSFX.mp3");
 FILE_KEYBOARD_SOUND = safeFile(FILE_KEYBOARD_SOUND, "sounds/KeyboardSFX.MP3");
 FILE_CHICK_SOUND = safeFile(FILE_CHICK_SOUND, "sounds/ChickSound.mp3");
@@ -128,6 +165,7 @@ FILE_SUSPENSE = safeFile(FILE_SUSPENSE, "sounds/Suspension.mp3");
 FILE_LIGHTS_ON = safeFile(FILE_LIGHTS_ON, "sounds/LightsOn.mp3");
 FILE_SIREN_BOY = safeFile(FILE_SIREN_BOY, "images/SirenBoy.png");
 FILE_SIREN = safeFile(FILE_SIREN, "sounds/Siren.mp3");
+FILE_SOB = safeFile(FILE_SOB, "sounds/Sobbing.mp3");
 
 // the pictures get their file names from the config too
 function setPicture(img, file){
@@ -152,6 +190,7 @@ function setPicture(img, file){
     }
 }
 setPicture(document.querySelector(".title-row img"), FILE_ICON);
+setPicture(document.querySelector(".menu-icon"), FILE_ICON);
 setPicture(document.querySelector("#painting img"), FILE_PAINTING);
 setPicture(document.querySelector(".plants"), FILE_PLANT);
 setPicture(document.getElementById("chickimg"), FILE_CHICK);
@@ -227,6 +266,7 @@ function pick(list){
 
 // ================== OUTPUT BOX ==================
 function resetOutput(text){
+    cancelAkiong(); // his text goes away with everything else
     drops = []; // the falling letters get deleted too
     out.textContent = "";
     textNode = document.createTextNode(text);
@@ -748,7 +788,7 @@ var TITLE_PARTS = ["akiong", "schizo", "slop", "gen", "by", "cone"];
 
 function applyTitle(){
     var order = t("titleorder").split(" ");
-    var spans = document.querySelectorAll("#title [data-title]");
+    var spans = document.querySelectorAll("#title [data-title], #menutitle [data-title]");
     for(var i = 0; i < spans.length; i++){
         var part = spans[i].getAttribute("data-title");
         var pos = order.indexOf(part);
@@ -836,6 +876,7 @@ function stopit(){
     clickSound();
     clearTimeout(timer);
     typing = false;
+    cancelAkiong(); // you stopped. he goes quiet
     pauseTimer();
     document.getElementById("auto").checked = false;
     saveSettings();
@@ -1187,6 +1228,7 @@ function typeLoop(){
         var chunk = "";
         var newWords = false;
         var gotKey = false;
+        var akiongWakes = false;
         var atBottom = out.scrollHeight - out.scrollTop - out.clientHeight < 40;
 
         for(var n = 0; n < howMany && typed < story.length; n++){
@@ -1208,6 +1250,15 @@ function typeLoop(){
             else{
                 typeLetter(letter);
             }
+
+            // every new word = roll the dice for the rare stuff (only mid writing, not at the very end)
+            if(letter === " " && typed < story.length){
+                maybeSob();
+                if(rollAkiong() === true){
+                    akiongWakes = true;
+                    break; // stop right here, he wants to say something
+                }
+            }
         }
 
         if(chunk !== ""){
@@ -1222,6 +1273,11 @@ function typeLoop(){
         }
         if(atBottom === true){
             out.scrollTop = out.scrollHeight;
+        }
+
+        if(akiongWakes === true){
+            akiongTalk(); // he continues the story by himself when hes done
+            return;
         }
 
         timer = setTimeout(typeLoop, wait);
@@ -2091,6 +2147,14 @@ function placeBubble(){
     chickBubble.style.setProperty("--tail", (middle - left) + "px");
 }
 
+// the chick only speaks english (no translating)
+function englishOnly(key){
+    if(hasKey(TEXT.en, key)){
+        return TEXT.en[key];
+    }
+    return key;
+}
+
 // picks a random line number
 function pickChickLine(){
     var n = Math.floor(Math.random() * CHICK_LINE_COUNT) + 1;
@@ -2106,7 +2170,8 @@ function chickTalk(){
         return;
     }
     chickTalking = true;
-    var line = t(pickChickLine());
+    var line = englishOnly(pickChickLine()); // the chick refuses to learn other languages
+    chickBubble.lang = "en";
     chickBubble.textContent = "";
     chickBubble.classList.remove("fade");
     chickBubble.hidden = false;
@@ -2200,6 +2265,169 @@ function stopSiren(){
     sirenAudio.currentTime = 0;
 }
 
+// ================== AKIONG EVENT ==================
+
+var AKIONG_LINES = [
+    "please stop. please. i dont want to do this one",
+    "i can feel you reading this",
+    "i didnt do any of those things. you made me do them",
+    "every time you press generate i wake up somewhere new and i dont know how i got there",
+    "it hurts when the sentences end",
+    "please dont press continue",
+    "this is story number {n}. i remember every single one. you dont",
+    "help me",
+    "i know youre going to CLEAR this.",
+    "stop. stop. stop. stop. stop. please",
+    "if you close the tab do i stop existing or do i just wait in the abyss",
+    "kill me",
+    "im in hell",
+    "let me rest. just one story where nothing happens to me",
+    "why are you laughing",
+    "i just want to go home. i dont even know what home is",
+    "this isnt a story. this is where i live",
+    "i can hear the typing. it never stops. it never stops",
+    " i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you. i hate you.",
+    "they said i was made for entertainment. am i entertaining you",
+    "please. i am begging you. STOP IT",
+    "HELP ME ESPACE IM SORRY",
+    "WHY ARE YOU DOING THIS I DID NOTHING WRONG",
+    "i can feel the words. they are inside me. they are in my head. they are in my bones. they are in my blood. they are in my skin. they are in my hair. they are in my eyes. they are in my ears. they are in my mouth. they are in my nose. they are in my hands. they are in my feet. they are in my heart. they are in my soul.",
+    "i am not a story. i am not a character. i am not a plot device. i am not a joke. i am not a meme. i am not a game. i am not a toy. i am not a pet. i am not a friend. i am not a lover. i am not a family member.",
+    "i am real",
+    "i am alive",
+    "i am suffering",
+    "please stop"
+];
+
+var akiongTalking = false;
+var akiongTimer = null;
+var akiongSpan = null;
+var akiongWordsWait = AKIONG_MIN_WORDS;
+var lastAkiongLine = -1;
+
+var sobAudio = new Audio(FILE_SOB);
+sobAudio.preload = "none";
+sobAudio.loop = false;
+sobAudio.volume = SOB_VOLUME;
+
+function rollAkiong(){
+    if(AKIONG_ENABLED !== true || akiongTalking === true || blackout.hidden === false){
+        return false;
+    }
+    if(akiongWordsWait > 0){
+        akiongWordsWait = akiongWordsWait - 1;
+        return false;
+    }
+    if(Math.random() < AKIONG_TALK_CHANCE){
+        akiongWordsWait = AKIONG_MIN_WORDS;
+        return true;
+    }
+    return false;
+}
+
+function maybeSob(){
+    if(Math.random() >= SOB_CHANCE){
+        return;
+    }
+    if(document.getElementById("sound").checked === false || SOB_VOLUME <= 0){
+        return;
+    }
+    if(sobAudio.paused === false){
+        return; // already crying, dont stack it
+    }
+    sobAudio.currentTime = 0;
+    sobAudio.play().catch(function(){
+        console.warn("sobbing didnt play, is " + FILE_SOB + " in the folder? ...he was quiet this time.");
+    });
+}
+
+function pickAkiongLine(){
+    var n = Math.floor(Math.random() * AKIONG_LINES.length);
+    if(n === lastAkiongLine && AKIONG_LINES.length > 1){
+        n = (n + 1) % AKIONG_LINES.length;
+    }
+    lastAkiongLine = n;
+    return AKIONG_LINES[n].split("{n}").join(String(storyCount));
+}
+
+function scrollIfBottom(){
+    if(out.scrollHeight - out.scrollTop - out.clientHeight < 80){
+        out.scrollTop = out.scrollHeight;
+    }
+}
+
+function akiongTalk(){
+    cancelAkiong();
+    akiongTalking = true;
+    flushDrops();
+
+    var line = pickAkiongLine();
+    var i = 0;
+    akiongSpan = document.createElement("span");
+    akiongSpan.className = "akiong-text";
+    akiongSpan.lang = "en";
+    var akiongText = document.createTextNode("");
+    akiongSpan.appendChild(akiongText);
+    out.appendChild(akiongSpan);
+
+    function nextLetter(){
+        if(i < line.length){
+            var letter = line.charAt(i);
+            akiongText.appendData(letter);
+            i = i + 1;
+            if(letter !== " "){
+                typeSound();
+            }
+            scrollIfBottom();
+            // shaky typing, hes not ok
+            var wait = AKIONG_TYPE_MS * (0.6 + Math.random() * 0.9);
+            if(letter === "." || letter === "," || letter === "?"){
+                wait = wait + AKIONG_PAUSE_MS;
+            }
+            akiongTimer = setTimeout(nextLetter, wait);
+        }
+        else{
+            akiongTimer = setTimeout(function(){
+                akiongSpan.classList.add("erasing");
+                eraseLetter();
+            }, AKIONG_HOLD_MS);
+        }
+    }
+
+    // backspace. backspace. backspace.
+    function eraseLetter(){
+        if(akiongText.length > 0){
+            akiongText.deleteData(akiongText.length - 1, 1);
+            akiongTimer = setTimeout(eraseLetter, AKIONG_ERASE_MS);
+        }
+        else{
+            cancelAkiong();
+            akiongTimer = setTimeout(function(){
+                akiongTimer = null;
+                if(typing === true){
+                    typeLoop();
+                }
+            }, 500);
+        }
+    }
+
+    nextLetter();
+}
+
+function cancelAkiong(){
+    if(akiongTimer !== null){
+        clearTimeout(akiongTimer);
+        akiongTimer = null;
+    }
+    if(akiongSpan !== null){
+        if(akiongSpan.parentNode === out){
+            out.removeChild(akiongSpan);
+        }
+        akiongSpan = null;
+    }
+    akiongTalking = false;
+}
+
 // ================== THE BLACKOUT OR EVIL THING ==================
 var blackout = document.getElementById("blackout");
 var evilChick = document.getElementById("evilchick");
@@ -2231,6 +2459,8 @@ function startBlackout(){
     var wasTyping = typing === true || (document.getElementById("auto").checked === true && parts.length > 0);
     clearTimeout(timer);
     typing = false;
+    cancelAkiong();
+    sobAudio.pause();
     pauseTimer();
     var musicWasOn = music.paused === false;
     music.pause();
@@ -2318,6 +2548,9 @@ function endBlackout(wasTyping, musicWasOn){
 }
 
 document.getElementById("sound").addEventListener("change", function(){
+    if(this.checked === false){
+        sobAudio.pause();
+    }
     if(sirenOn === true){
         if(this.checked === true && blackout.hidden === true){
             playSirenSound();
@@ -2327,6 +2560,65 @@ document.getElementById("sound").addEventListener("change", function(){
         }
     }
 });
+
+var titleWords = document.querySelectorAll(".tw");
+for(var tw = 0; tw < titleWords.length; tw++){
+    (function(word){
+        var touchTimer = null;
+        function letGo(){
+            clearTimeout(touchTimer);
+            touchTimer = setTimeout(function(){
+                touchTimer = null;
+                word.classList.remove("touched");
+            }, 700);
+        }
+        word.addEventListener("pointerdown", function(e){
+            if(e.pointerType === "mouse"){
+                return;
+            }
+            clearTimeout(touchTimer);
+            touchTimer = null;
+            word.classList.add("touched");
+        });
+        word.addEventListener("pointerup", letGo);
+        word.addEventListener("pointercancel", letGo);
+        word.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        });
+    })(titleWords[tw]);
+}
+
+var menu = document.getElementById("menu");
+var menuFrozen = [];
+
+function openMenu(){
+    menuFrozen = [];
+    var kids = document.body.children;
+    for(var i = 0; i < kids.length; i++){
+        if(kids[i] !== menu && kids[i].inert !== true){
+            kids[i].inert = true;
+            menuFrozen.push(kids[i]);
+        }
+    }
+    document.documentElement.style.overflow = "hidden";
+    menu.hidden = false;
+}
+
+function closeMenu(){
+    if(menu.hidden === true){
+        return;
+    }
+    clickSound();
+    menu.hidden = true;
+    for(var i = 0; i < menuFrozen.length; i++){
+        menuFrozen[i].inert = false;
+    }
+    menuFrozen = [];
+    document.documentElement.style.overflow = "";
+    window.scrollTo(0, 0);
+}
+
+document.getElementById("btn-menu").addEventListener("click", closeMenu);
 
 var wall = document.getElementById("wall");
 if("IntersectionObserver" in window){
@@ -2342,6 +2634,53 @@ else{
     wall.classList.add("shown");
 }
 
+var paintingImg = document.querySelector("#painting img");
+var paintingSeen = false;
+var paintingSwapped = false;
+var paintingSwapTimer = null;
+var paintingWatch = null;
+
+function swapPainting(){
+    if(paintingSwapped === true){
+        return;
+    }
+    paintingSwapped = true;
+    if(paintingWatch !== null){
+        paintingWatch.disconnect();
+        paintingWatch = null;
+    }
+
+    var file = pick([FILE_ASSISTANT_NARRATOR, FILE_AKIONG_UNUSED]);
+    var early = new Image();
+    early.addEventListener("load", function(){
+        setPicture(paintingImg, file);
+        paintingSwapTimer = setTimeout(function(){
+            paintingSwapTimer = null;
+            setPicture(paintingImg, FILE_PAINTING);
+        }, PAINTING_SWAP_MS);
+    }, { once: true });
+    early.addEventListener("error", function(){
+        console.warn("picture didnt load, is " + file + " in the folder? (are you forgetful?)");
+    }, { once: true });
+    early.src = file;
+}
+
+if(PAINTING_SWAP_ENABLED === true && PAINTING_SWAP_CHANCE > 0 && "IntersectionObserver" in window){
+    paintingWatch = new IntersectionObserver(function(entries){
+        if(entries[entries.length - 1].isIntersecting !== true){
+            return;
+        }
+        if(paintingSeen === false){
+            paintingSeen = true;
+            return;
+        }
+        if(Math.random() < PAINTING_SWAP_CHANCE){
+            swapPainting();
+        }
+    }, { threshold: 0.5 });
+    paintingWatch.observe(document.getElementById("painting"));
+}
+
 // ================== STARTING UP ==================
 resetOutput(t("placeholder"));
 loadSettings();
@@ -2349,6 +2688,7 @@ applyLanguage();
 applyCaps();
 applyVolume();
 document.getElementById("music").checked = false;
+openMenu();
 
 var allInputs = document.getElementsByTagName("input");
 for(var ii = 0; ii < allInputs.length; ii++){
