@@ -5,6 +5,8 @@
 
 ## What is this ##
 
+Akiong Slop Generator (ASG) is a small project that ConeHazard and I ig made for fun. It builds a random story out of randomly generated text every time you click.
+
 You pick a mood, click generate, and it types out a completely random story about Akiong doing stuff. 
 sometimes normal stuff. sometimes not.
 
