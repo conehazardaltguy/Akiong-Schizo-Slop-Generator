@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://conehazardaltguy.github.io/Akiong-Schizo-Slop-Generator/sitemap.xml
