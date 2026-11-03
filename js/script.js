@@ -1463,109 +1463,9 @@ function loadSettings(){
 
 // ================== PHYSICS SOUNDS ==================
 
-var audioCtx = null;
-var noiseBuffer = null;
-
-function getAudio(){
-    if(document.getElementById("sound").checked === false){
-        return null;
-    }
-    if(audioCtx === null){
-        var AC = window.AudioContext || window.webkitAudioContext;
-        if(!AC){
-            return null;
-        }
-        try{
-            audioCtx = new AC();
-        }
-        catch(e){
-            return null;
-        }
-        noiseBuffer = audioCtx.createBuffer(1, audioCtx.sampleRate, audioCtx.sampleRate);
-        var data = noiseBuffer.getChannelData(0);
-        for(var i = 0; i < data.length; i++){
-            data[i] = Math.random() * 2 - 1;
-        }
-    }
-    if(audioCtx.state === "suspended"){
-        audioCtx.resume().catch(function(){
-            // do nothin numver 2?
-        });
-    }
-    return audioCtx;
-}
-
 // random pitch between 0.85x and 1.15x
 function randomPitch(){
     return 0.85 + Math.random() * 0.3;
-}
-
-// a beep that slides from one pitch to another and fades out
-function tone(ctx, type, freq, endFreq, start, length, vol){
-    vol = vol * CLICK_VOLUME;
-    if(vol <= 0){
-        return; // silent = dont even make it
-    }
-    var osc = ctx.createOscillator();
-    var gain = ctx.createGain();
-    osc.type = type;
-    osc.frequency.setValueAtTime(freq, start);
-    osc.frequency.exponentialRampToValueAtTime(endFreq, start + length);
-    gain.gain.setValueAtTime(Math.max(vol, 0.001), start);
-    gain.gain.exponentialRampToValueAtTime(0.0001, start + length);
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-    osc.start(start);
-    osc.stop(start + length + 0.02);
-    // unplug everything when its done so it gets cleaned up
-    osc.onended = function(){
-        osc.disconnect();
-        gain.disconnect();
-    };
-}
-
-// a short burst of static through a filter
-function noise(ctx, filterType, freq, start, length, vol){
-    vol = vol * CLICK_VOLUME;
-    if(vol <= 0){
-        return;
-    }
-    var src = ctx.createBufferSource();
-    var filter = ctx.createBiquadFilter();
-    var gain = ctx.createGain();
-    src.buffer = noiseBuffer;
-    filter.type = filterType;
-    filter.frequency.value = freq;
-    gain.gain.setValueAtTime(Math.max(vol, 0.001), start);
-    gain.gain.exponentialRampToValueAtTime(0.0001, start + length);
-    src.connect(filter);
-    filter.connect(gain);
-    gain.connect(ctx.destination);
-    src.start(start, Math.random() * 0.5);
-    src.stop(start + length + 0.02);
-    src.onended = function(){
-        src.disconnect();
-        filter.disconnect();
-        gain.disconnect();
-    };
-}
-
-function pickupSound(b){
-    var ctx = getAudio();
-    if(ctx === null){
-        return;
-    }
-    var p = randomPitch();
-    var now = ctx.currentTime;
-    if(b.kind === "painting"){
-        noise(ctx, "lowpass", 500 * p, now, 0.18, 0.3);
-        tone(ctx, "sine", 140 * p, 90 * p, now, 0.15, 0.3);
-        tone(ctx, "sawtooth", 230 * p, 180 * p, now + 0.03, 0.12, 0.03);
-    }
-    else{
-        tone(ctx, "square", 1600 * p, 1200 * p, now, 0.03, 0.08);
-        tone(ctx, "triangle", 2400 * p, 2000 * p, now + 0.015, 0.02, 0.06);
-    }
 }
 
 // speed = how hard it hit (harder = louder)
@@ -1779,7 +1679,6 @@ function grab(b, e){
     b.pvx = 0;
     b.pvy = 0;
     b.el.classList.add("dragging");
-    pickupSound(b);
     wake();
 }
 
